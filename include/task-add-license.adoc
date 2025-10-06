@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+Le informazioni sulla licenza vengono visualizzate automaticamente nella sezione **Licenze e abbonamenti** quando l'account NetApp Console associato alla licenza è anche un account NetApp Support Site e dispone di accesso a Internet.  Se hai utilizzato un account Console non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.
+
+È possibile aggiungere la licenza nella Console immettendo il numero di serie e l'account NSS associato oppure caricando il file di licenza NetApp (NLF).  Se la Console non ha accesso a Internet (installazioni in modalità privata), è necessario procurarsi un file di licenza NetApp da caricare.
+
+Dopo aver acquistato una licenza dal tuo rappresentante commerciale NetApp , NetApp ti invierà un'e-mail con il numero di serie e ulteriori dettagli sulla licenza.  Il numero di serie ti servirà per aggiungere o aggiornare la rispettiva licenza nella Console.
+
+
+NOTE: Per inserire il numero di serie, prima https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["aggiungi il tuo account del sito di supporto NetApp alla console"^] .  Questo è l'account del sito di supporto NetApp autorizzato ad accedere al numero di serie.
+
+.Passi
+. Dal menu NetApp Console, seleziona *Governance > Licenze e abbonamenti*, quindi seleziona la scheda *Licenze dirette*.
+. Seleziona *Aggiungi licenza*.
+. Nella finestra di dialogo *Aggiungi licenza*, inserisci le informazioni sulla licenza e seleziona *Aggiungi licenza*:
++
+** Se hai il numero di serie e conosci il tuo account NSS, seleziona *Inserisci numero di serie* e inserisci tali informazioni.
++
+Se hai inserito un numero di serie, devi anche selezionare l'account del sito di supporto NetApp autorizzato ad accedere al numero di serie.
+
++
+Se il tuo account del sito di supporto NetApp non è disponibile nell'elenco a discesa, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["aggiungere l'account NSS alla Console"^]
+
+** Se si dispone del file di licenza (necessario quando si utilizza NetApp Console in modalità privata), selezionare l'opzione *Carica file di licenza* e seguire le istruzioni per allegare il file.
+
+
+

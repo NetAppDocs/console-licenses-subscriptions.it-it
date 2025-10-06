@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
+summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
+---
+= Accetta e attiva un'offerta privata di Azure per la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Accetta e sottoscrivi un'offerta privata del Marketplace per la console NetApp nel portale di Azure.  Configurare le credenziali di Azure nella console.
+
+.Prima di iniziare
+* Collabora con il reparto vendite NetApp per creare un'offerta privata per il tuo ID di fatturazione Azure.
+* Disponi delle autorizzazioni necessarie per accettare un'offerta privata in Azure Marketplace:
++
+** Contratto aziendale (EA): *Amministratore aziendale*
+** Contratto con il cliente Microsoft (MCA): *Titolare dell'account di fatturazione* o *Collaboratore dell'account di fatturazione*
+
+
+* Per acquistare un'offerta privata in Azure Marketplace e creare un abbonamento, è necessario disporre delle autorizzazioni necessarie:
++
+** *Proprietario dell'abbonamento* o *Collaboratore dell'abbonamento* dell'abbonamento Azure in uso
+
+
+* Un singolo individuo può accettare e acquistare l'offerta privata se dispone delle autorizzazioni necessarie.
+
+
+
+
+== Accetta e sottoscrivi l'offerta privata nel portale di Azure
+
+Una sottoscrizione di Azure può essere associata a una sola sottoscrizione di Marketplace. Se si desidera utilizzare due diverse sottoscrizioni Marketplace per i carichi di lavoro nella stessa sottoscrizione di Azure, è necessario creare due account Console separati, uno per ciascuna sottoscrizione.  Se disponi di più istanze Cloud Volumes ONTAP e desideri suddividere la fatturazione tra diversi abbonamenti, crea account Console separati per ciascun abbonamento.
+
+[IMPORTANT]
+====
+Devi completare tutti i passaggi per accettare e attivare la tua offerta privata. Saltare alcuni passaggi potrebbe causare problemi di attivazione o una doppia ricarica.
+
+Se noti delle discrepanze nei termini, nei prezzi o nei dettagli dell'offerta, oppure se non sei sicuro di quale offerta accettare, non accettarla. Contatta il team di vendita NetApp .
+
+Accettare e attivare l'offerta più volte comporta un doppio addebito.
+
+====
+.Passi
+. Fai clic sul collegamento all'offerta privata fornito dal team di vendita NetApp e accedi. Se non è disponibile alcun collegamento, accedi direttamente al portale di Azure.
+. Cerca o seleziona *Marketplace* dai servizi di Azure.
+. Nella pagina Marketplace, clicca su *Gestione offerte private* nella sezione *Gestione*.
+. Fare clic su *Visualizza + accetta* per rivedere i dettagli dell'offerta privata.
++
+.. Verificare che i *dettagli del piano*, la *durata* e i *prezzi* siano corretti.
+.. Se i dati non sono corretti, non iscriverti. Contatta il team di vendita NetApp per correggere l'offerta.
+
+
+. Conferma e clicca su *Accetta offerta privata*.
+. Fare clic su *Acquista* per completare la procedura di acquisto.
++
+[NOTE]
+====
+Se il pulsante *Acquista* non è disponibile, verifica di disporre delle autorizzazioni di acquisto richieste. In caso contrario, copia e condividi il link della finestra di acquisto con qualcuno autorizzato nella tua organizzazione.
+
+====
+. Nel flusso di lavoro degli acquisti:
++
+.. Selezionare l'*abbonamento Azure* da utilizzare.
+.. Selezionare il *gruppo di risorse* in cui verrà creato l'abbonamento.
+.. Inserisci un *Nome* per il nuovo abbonamento.
+
+
+. Facoltativamente, imposta *Tag* (per prodotto, posizione del sito, definizione del carico di lavoro o convenzione di denominazione).
+. Fai clic su *Controlla e iscriviti*, convalida i dettagli e poi fai clic su *Iscriviti*.
+. Una volta creato correttamente l'abbonamento, fare clic su *Configura account ora*. Verrai reindirizzato alla console NetApp per completare la configurazione.
++
+[NOTE]
+====
+Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 minuti. Se la pagina è stata chiusa prima di aver fatto clic su *Configura account ora*, tornare al servizio nel portale di Azure. L'abbonamento viene visualizzato come *Configurazione in sospeso*. Selezionarlo per continuare la configurazione.
+
+====
+. Verrai reindirizzato a https://console.netapp.com[] e ti verrà chiesto di effettuare l'accesso.
+. Dopo aver effettuato l'accesso, verrai reindirizzato a https://console.netapp.com/licenses/overview[] . Ti verrà chiesto di:
++
+.. Inserisci un *Nome visualizzato* per l'abbonamento al Marketplace.
+.. Selezionare gli *Account* della console che devono avere accesso a questo abbonamento.
+.. Facoltativamente, puoi abilitare *Sostituisci abbonamento esistente* per sostituire automaticamente un abbonamento Marketplace esistente in un account Console.
++
+[NOTE]
+====
+*** Questa opzione di sostituzione è limitata a un singolo account Console.
+*** Per associare più account Console allo stesso abbonamento Marketplace, configura manualmente gli account aggiuntivi.
+
+
+====
+
+
+. Fare clic su *Associa* e poi su *Fine*.
+
+
+[IMPORTANT]
+====
+Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.
+
+====
+
+
+== Configurare l'abbonamento con le credenziali di Azure
+
+. Nella Console, vai su *Governance > Licenze e abbonamenti* e seleziona la scheda *Abbonamenti Marketplace*.
+. Convalida i dettagli dell'abbonamento:
++
+.. Individua l'abbonamento Marketplace che hai creato.
+.. Espandi la riga per rivedere i dettagli e confermare che l'abbonamento è associato al tuo account Console.
+
+
+. Fare clic sul *menu a tre punti* accanto all'abbonamento e selezionare *Configura*.
+. Selezionare la *sottoscrizione Azure* appropriata e fare clic su *Configura*.
+
+
+Gli addebiti del Marketplace per questa credenziale di Azure vengono ora fatturati tramite l'abbonamento al Marketplace. Per i contratti annuali, l'utilizzo di questa credenziale viene conteggiato nel contratto annuale.
+
+[IMPORTANT]
+====
+Ripetere i passaggi da 1 a 4 per ogni credenziale di Azure nell'account della console che si desidera associare alla sottoscrizione.
+
+* Per associare le credenziali di un'altra organizzazione della Console, utilizzare il menu a discesa *Organizzazione* per cambiare organizzazione e ripetere i passaggi.
+* Per associare le credenziali di un altro agente, utilizzare il menu a discesa *Agente* per cambiare e ripetere i passaggi.
+
+
+====

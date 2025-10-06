@@ -1,0 +1,216 @@
+---
+sidebar: sidebar 
+permalink: task-manage-subscriptions.html 
+keywords: subscriptions, paygo subscriptions, contracts, annual contracts, capacity, bluexp, netapp console, marketplace 
+summary: 'Abbonati ai servizi dati NetApp (incluso Cloud Volumes ONTAP) dal marketplace di un provider cloud.' 
+---
+= Gestisci abbonamenti e contratti PAYGO
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando ti abboni ai servizi dati NetApp (incluso Cloud Volumes ONTAP) dal marketplace di un provider cloud, verrai reindirizzato al sito Web della Console, dove potrai salvare l'abbonamento e associarlo alla tua organizzazione Console.  Dopo l'iscrizione, ogni abbonamento potrà essere gestito nella Console.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità limitata)"^]
+
+
+
+NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Per i dettagli sulla licenza di un servizio dati specifico, utilizzare i riquadri del servizio dati nella dashboard *Panoramica*. link:task-homepage.html#overview-page["Scopri di più sulla dashboard Panoramica"] .
+
+
+
+== Aggiungi un nuovo abbonamento al marketplace
+
+Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
+
+[role="tabbed-block"]
+====
+.AWS
+--
+Il seguente video mostra i passaggi per abbonarsi alla console NetApp da AWS Marketplace:
+
+.Iscriviti alla console NetApp da AWS Marketplace
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+--
+.Azzurro
+--
+Il video seguente mostra i passaggi per abbonarsi a NetApp Console da Azure Marketplace:
+
+.Iscriviti alla console NetApp da Azure Marketplace
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+--
+.Google Cloud
+--
+Il seguente video mostra i passaggi per abbonarsi a NetApp Console da Google Cloud Marketplace:
+
+.Iscriviti a NetApp Console da Google Cloud Marketplace
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+--
+====
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Sopra la tabella *Abbonamenti*, seleziona *Aggiungi abbonamento*.
+. Nella finestra di dialogo Aggiungi abbonamento, seleziona un provider cloud.
++
+.. Se si sceglie un abbonamento AWS, specificare se si desidera un contratto annuale o un abbonamento PAYGO.
+
+
+. Seleziona *Aggiungi abbonamento* per accedere al marketplace del provider e completare i passaggi indicati.
+. Una volta terminato il processo nel marketplace del provider cloud, torna alla Console per completarlo.
+
+
+
+
+== Visualizza i tuoi abbonamenti
+
+Puoi visualizzare i dettagli di ogni abbonamento PAYGO e contratto annuale associato alla tua organizzazione o account Console.
+
+Per Google Cloud, puoi anche identificare gli abbonamenti al marketplace associati a un'offerta privata, il che ti consente di verificare di aver accettato correttamente l'offerta.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
++
+Vedrai solo gli abbonamenti associati all'organizzazione che stai visualizzando al momento.
+
+. Mentre visualizzi le informazioni sull'abbonamento, puoi interagire con i dettagli della tabella come segue:
++
+** Utilizzare la ricerca avanzata e il filtro per determinare quali abbonamenti visualizzare nella tabella.  È possibile effettuare la ricerca in base al nome specifico dell'abbonamento e filtrare in base a vari parametri dell'abbonamento, come tipo e configurazione.
+** Espandi una riga per visualizzare maggiori dettagli.
+** Selezionareimage:icon-column-selector.png["l'icona più alla fine dell'intestazione della tabella"] per scegliere quali colonne visualizzare nella tabella.
++
+Le colonne Termine e Rinnovo automatico non vengono visualizzate per impostazione predefinita.  La colonna Rinnovo automatico visualizza le informazioni sul rinnovo solo per i contratti Azure.
+
+
+
++
+Si noti quanto segue in merito alle informazioni della tabella:
+
++
+Data di inizio:: La data di inizio è quella in cui hai associato correttamente l'abbonamento al tuo account e hai iniziato ad addebitare.
+N / A:: Se nella tabella è visualizzato N/D, le informazioni non sono attualmente disponibili tramite l'API del provider cloud.
+Termine:: Se il tuo abbonamento a Google Cloud è associato a un'offerta privata modificata dopo la creazione e l'accettazione, il termine mostra N/D.  In questo scenario, la risposta API di Google Cloud Marketplace non include informazioni relative ai termini.
+Contratti::
++
+--
+** Quando si espandono i dettagli del contratto, la Console visualizza le opzioni contrattuali disponibili e le unità (capacità o numero di nodi) per il piano corrente.
+** La Console identifica la data di fine e se il contratto verrà rinnovato a breve, scadrà a breve o è già terminato.
+** Se hai un contratto AWS e hai modificato delle opzioni contrattuali dopo la data di inizio, convalida le opzioni contrattuali da AWS Marketplace.
+** Se hai un'offerta privata di Google Cloud, le opzioni contrattuali non sono disponibili.
+
+
+--
+
+
+
+
+
+
+== Rinominare un abbonamento
+
+Puoi rinominare un abbonamento per identificare meglio come viene utilizzato dalla tua organizzazione.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Seleziona il menu azioni nella riga corrispondente all'abbonamento che desideri gestire e scegli *Rinomina*.
+
+
+
+
+== Configura un abbonamento con le credenziali del provider
+
+In genere, gli abbonamenti vengono configurati con le credenziali del provider create al momento dell'abbonamento.  In alcuni casi, potrebbe essere necessario riconfigurare un abbonamento per utilizzare credenziali diverse e modificare la modalità di addebito.  Le credenziali associate a un abbonamento devono essere associate anche a un agente.
+
+Il formato delle credenziali dipende dal marketplace che stai utilizzando.  Ad esempio, gli abbonamenti di Azure Marketplace sono associati al nome dell'abbonamento di Azure, mentre gli abbonamenti di AWS Marketplace utilizzano l'ID dell'account AWS.  È possibile visualizzare un elenco delle credenziali disponibili nella pagina Credenziali.
+
+L'opzione Configura è disattivata se hai annullato l'iscrizione a un abbonamento.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Selezionare il menu azioni nella riga corrispondente all'abbonamento che si desidera configurare e scegliere *Configura*.
+. Nella finestra di dialogo Configura, seleziona una credenziale da configurare con l'abbonamento.  È possibile scegliere solo tra le credenziali associate all'agente attualmente selezionato.  Se non vedi la credenziale che desideri utilizzare, prova a passare a una vista agente diversa.
+
+
+
+
+== Associa un abbonamento a un'organizzazione Console
+
+Associando un abbonamento a un'organizzazione si garantisce che i membri di tale organizzazione possano utilizzare quell'abbonamento per la fatturazione.
+
+È possibile limitare l'utilizzo dell'abbonamento a un'organizzazione specifica oppure condividerlo tra più organizzazioni.
+
+Per associare un abbonamento a un'organizzazione, è necessario disporre del ruolo di amministratore dell'organizzazione.
+
+
+NOTE: La console supporta Identity and Access Management (IAM) in modalità standard, che utilizza le organizzazioni per gestire utenti e risorse.  Se utilizzi la Console in modalità privata o limitata, puoi utilizzare un _account_ Console per gestire utenti e risorse, compresi gli abbonamenti.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Nella riga dell'abbonamento che desideri associare, apri il menu azioni e seleziona *Associa*.
+. Nella finestra di dialogo *Associa l'abbonamento*, seleziona una o più organizzazioni da associare all'abbonamento.
+. Seleziona *Associa*.
+
+
+
+
+== Visualizza le credenziali associate a un abbonamento
+
+È possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Abbonamenti Marketplace*.  Ciò consente di verificare come viene fatturato l'abbonamento.  Poiché le credenziali sono collegate all'agente utilizzato, è necessario selezionare l'agente associato all'abbonamento che si desidera visualizzare.
+
+
+NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente nella barra di navigazione in alto.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Nella riga contenente l'abbonamento di cui desideri visualizzare le credenziali, seleziona Visualizza.  Se a un abbonamento sono associate più credenziali, è possibile che non ne venga visualizzata alcuna e si verrà indirizzati a selezionare un agente diverso.
+
+
+
+
+=== Annullare la configurazione di un abbonamento
+
+Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa operazione cancella tutti i dati e le impostazioni associati.
+
+.Passi
+. Nel menu NetApp Console, seleziona *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Nella riga relativa all'abbonamento che desideri deconfigurare, fai clic sul menu azioni e seleziona *Deconfigura*.
+. Seguire le istruzioni per rimuovere o reimpostare eventuali impostazioni o dati associati.
+. Attendi che lo stato venga aggiornato in *Non configurato*.
+
+
+
+
+=== Rimuovere un abbonamento
+
+Quando annulli un abbonamento nel tuo provider cloud (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Annullato*.
+
+È possibile rimuovere gli abbonamenti *Non sottoscritti* dalla Console in modo che non vengano più visualizzati.
+
+[NOTE]
+====
+È possibile rimuovere solo gli abbonamenti che sono sia *Non iscritti* che *Non configurati*.  Prima della rimozione, è necessario cancellare o ripristinare tutte le impostazioni, i dati e la configurazione correlati.
+
+Se l'abbonamento è ancora configurato, l'opzione *Rimuovi* non viene visualizzata.  Per rendere disponibile l'opzione, deconfigurare l'abbonamento cancellando tutte le impostazioni, i servizi o i dati associati.
+
+====
+.Passi
+. Nel menu NetApp Console, seleziona *Governance > Licenze e abbonamenti*.
+. Seleziona *Abbonamenti Marketplace*.
+. Nella riga relativa all'abbonamento che desideri rimuovere, apri il menu azioni e seleziona *Rimuovi*.
++
+È possibile rimuovere solo gli abbonamenti con stato *Non iscritto* e *Non configurato*.
+
+. Nella finestra di dialogo *Rimuovi abbonamento*, conferma che desideri rimuovere l'abbonamento.
+

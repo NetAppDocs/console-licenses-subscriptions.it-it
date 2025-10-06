@@ -1,0 +1,29 @@
+= Nuova dashboard Panoramica
+:allow-uri-read: 
+
+
+Il BlueXP digital wallet è stato riprogettato per semplificarne l'utilizzo e ora offre una gestione aggiuntiva di abbonamenti e licenze.
+
+
+
+=== Nuova dashboard Panoramica
+
+La homepage del portafoglio digitale presenta una dashboard aggiornata delle licenze NetApp e degli abbonamenti Marketplace, con la possibilità di analizzare nel dettaglio servizi specifici, tipi di licenza e azioni richieste.
+
+
+
+=== Configurazione degli abbonamenti alle credenziali
+
+Il BlueXP digital wallet ora ti consente di configurare i tuoi abbonamenti in base alle credenziali del provider.  Solitamente questa operazione viene eseguita quando si sottoscrive per la prima volta un abbonamento Marketplace o un contratto annuale.  In precedenza la modifica delle credenziali dell'abbonamento poteva essere effettuata solo nella pagina Credenziali.
+
+
+
+=== Associazione degli abbonamenti alle organizzazioni
+
+Ora puoi aggiornare l'organizzazione a cui è associato un abbonamento direttamente dal portafoglio digitale.
+
+
+
+=== Gestione delle licenze Cloud Volume ONTAP
+
+Ora puoi gestire le licenze Cloud Volumes ONTAP tramite la home page o la scheda *Licenze dirette*.  Utilizza la scheda *Abbonamenti Marketplace* per visualizzare le informazioni sul tuo abbonamento.

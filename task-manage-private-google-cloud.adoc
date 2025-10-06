@@ -1,0 +1,143 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-google-cloud.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
+summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
+---
+= Accetta e configura un'offerta privata di Google Cloud per la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+
+
+[role="lead"]
+Accetta un'offerta privata del Marketplace per l'elenco della console NetApp nella console Google Cloud.  Configurare le credenziali di Google Cloud nella Console.
+
+.Prima di iniziare
+* Collabora con il reparto vendite NetApp per creare un'offerta privata. Il tuo team di vendita deve fornirti il ​​link all'offerta.
+* Il tuo account di fatturazione non deve essere in prova gratuita. Gli account di prova gratuiti non possono accettare offerte private. Se provi a utilizzare un account di fatturazione di prova, riceverai un errore e sarà necessaria l'assistenza del team cloud NetApp .
+* Per accettare l'offerta sono necessarie le seguenti autorizzazioni Google Cloud:
++
+** `roles/billing.admin`per l'account Cloud Billing di destinazione o l'organizzazione Google Cloud
+** `roles/viewer`per il progetto fatturato all'account Cloud Billing
+
+
+
+
+
+
+== Accetta l'offerta privata in Google Cloud
+
+Un progetto Google Cloud può essere associato a un solo abbonamento Marketplace. Se desideri utilizzare due abbonamenti diversi per i carichi di lavoro nello stesso progetto Google Cloud, devi creare due account Console separati, uno per ciascun abbonamento.
+
+[IMPORTANT]
+====
+Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare alcuni passaggi può causare problemi come la doppia ricarica.
+
+Se noti delle discrepanze nei termini, nei prezzi o nei dettagli dell'offerta, oppure se non sei sicuro di quale offerta accettare, non accettarla. Per chiarimenti, contatta il team del tuo account NetApp .
+
+====
+[NOTE]
+====
+Se hai già un abbonamento PAYGO attivo o un'offerta privata modificata, devi solo eseguire i passaggi di accettazione. In questi casi, il Marketplace aggiorna il piano all'interno della stessa inserzione e conserva lo stesso ID abbonamento, in modo che l'associazione dell'abbonamento nella Console rimanga intatta.
+
+====
+.Passi
+. Fai clic sul collegamento di attivazione dell'offerta privata fornito dal tuo team di vendita NetApp . Il collegamento dovrebbe essere simile al seguente:
+`https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
+. Verrai reindirizzato a Google Cloud Marketplace, dove potrai consultare i dettagli dell'offerta:
++
+.. **Conto di fatturazione**
+.. **Prodotto**: NetApp Console
+.. **Dettagli dell'offerta**
+.. **Prezzi**
++
+[NOTE]
+====
+Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non è corretto, non accettare l'offerta. Contatta il team del tuo account NetApp per una modifica.
+
+====
+
+
+. Conferma che le informazioni sono accurate, accetta i termini e fai clic su **Accetta**.
+. Durante la creazione dell'abbonamento viene visualizzata un'icona di caricamento.
+. Una volta creata correttamente la sottoscrizione, verrà visualizzata una finestra pop-up: *La tua richiesta d'ordine è stata inviata a NetApp, Inc.*
+. Fare clic su **REGISTRATI CON NETAPP, Inc.**. Verrai reindirizzato alla console NetApp per completare la configurazione dell'abbonamento. Se l'offerta privata è stata accettata da un altro individuo nella tua organizzazione:
++
+.. In Google Cloud Marketplace, vai a **Ordini**.
+.. Individua l'offerta con stato **In attesa**.
+.. Fare clic sul menu a tre punti e selezionare **Registrati con NetApp, Inc.**
+
+
+. Verrai reindirizzato a `https://console.netapp.com` e ti verrà chiesto di effettuare l'accesso.
+. Dopo aver effettuato l'accesso, verrai reindirizzato a `https://console.netapp.com/licenses/overview` . Verrà visualizzata una finestra popup in cui è necessario:
++
+.. Inserisci un nome visualizzato per l'*Abbonamento al Marketplace SaaS*.
+.. Selezionare gli **Account** della console che devono avere accesso all'abbonamento.
+.. Facoltativamente, puoi abilitare **Sostituisci abbonamento esistente** se desideri sostituire automaticamente un abbonamento Marketplace esistente in un account Console.
++
+[NOTE]
+====
+*** Questa opzione di sostituzione è limitata a un singolo account Console.
+*** Se devi associare più account Console allo stesso abbonamento Marketplace, devi configurare manualmente gli account aggiuntivi.
+
+
+====
+
+
+. Fare clic su **Associa** e poi su **Fine**.
+
+
+
+
+== Associa l'abbonamento alle credenziali di Google Cloud
+
+. Nella Console, vai su **Governance > Licenze e abbonamenti** e seleziona la scheda **Abbonamenti Marketplace**.
+. Convalida i dettagli dell'abbonamento:
++
+.. Individuare l'abbonamento creato nel processo di accettazione.
+.. Verificare che sia visualizzato il piano corretto.
+.. Espandi la riga per confermare l'associazione dell'offerta privata.
+
+
+
+
+[NOTE]
+====
+A causa delle limitazioni di Google Cloud Marketplace, alcuni campi potrebbero essere visualizzati `N/A` . Queste informazioni sono disponibili solo nella console Google Cloud.
+
+====
+. [Facoltativo] Per rinominare l'abbonamento:
++
+.. Fare clic sul **menu a tre punti** accanto all'abbonamento.
+.. Seleziona **Rinomina abbonamento**.
+
+
+. Fare nuovamente clic sul **menu a tre punti** e selezionare **Configura**.
+. Seleziona le **Credenziali** appropriate dell'account Google Cloud e fai clic su **Configura**.
+
+
+I costi del Marketplace per questa credenziale Google Cloud vengono ora fatturati tramite l'abbonamento al Marketplace. Per i contratti annuali, l'utilizzo di questa credenziale viene conteggiato nel contratto annuale.
+
+[IMPORTANT]
+====
+Ripeti i passaggi da 1 a 5 per ogni credenziale Google Cloud nel tuo account Console che desideri associare all'abbonamento Marketplace.
+
+* Per associare le credenziali di un altro account Console, utilizzare il menu a discesa **Account** per cambiare account e ripetere i passaggi.
+* Per associare le credenziali di un altro agente, utilizzare il menu a discesa **Agente** e ripetere i passaggi.
+
+
+====
+
+
+== Visualizza l'utilizzo di Google Cloud
+
+Per visualizzare lo stato e l'utilizzo del credito Google Cloud:
+
+. Nella console di Google Cloud, vai a **Cloud Marketplace**.
+. Fai clic su **I tuoi ordini**.
+. Dal menu a discesa **Seleziona account di fatturazione**, scegli l'account di fatturazione associato alla tua offerta privata.
+. Trova la tua offerta privata nella tabella, clicca sul **menu a tre punti** e seleziona **Visualizza credito**.
+

@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: Ottieni una panoramica di tutti gli abbonamenti e le licenze per la tua organizzazione nella dashboard di panoramica nella Console. 
+---
+= Utilizzare la panoramica della dashboard
+:allow-uri-read: 
+
+
+
+
+== Utilizzare la panoramica della dashboard
+
+[role="lead"]
+Utilizza la dashboard *Panoramica* nella Console per monitorare lo stato delle tue licenze e dei tuoi abbonamenti, per assicurarti di poter gestire i costi e mantenere il servizio quando gli abbonamenti raggiungono le date di scadenza o i limiti di capacità.
+
+È possibile visualizzare informazioni specifiche sulla licenza e sull'abbonamento per ciascuno dei servizi dati (incluso Cloud Volumes ONTAP) e approfondire i dettagli per ciascuno di essi.
+
+Verrai inoltre avvisato dei limiti di capacità o delle scadenze imminenti e ti verrà chiesto di intervenire.
+
+
+
+=== Visualizza i dettagli su un servizio dati specifico
+
+La dashboard *Panoramica* consente di visualizzare i dettagli sui seguenti servizi dati:
+
+* Cloud Volumes ONTAP
+* Ripristino dopo un disastro
+* Resilienza al ransomware
+* Backup e ripristino
+* Cloud Tiering
+
+
+Ad esempio, gli amministratori incaricati della gestione delle risorse Cloud Volumes ONTAP possono visualizzare la capacità corrente di ogni licenza o abbonamento, ottenendo così una visione mirata delle risorse di loro competenza.
+
+
+NOTE: Sebbene sia possibile aggiornare e rimuovere le licenze dalla dashboard, non è possibile aggiungere una nuova licenza o un nuovo abbonamento.
+
+link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"^] . link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"^] .
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Selezionare *Panoramica*.
+. Selezionare *Visualizza* per il rispettivo servizio dati (incluso Cloud Volumes ONTAP) per visualizzare i dettagli e gestire licenze e abbonamenti.
++
+Ogni riquadro fornisce una panoramica grafica della capacità.  Puoi visualizzare la pagina dei dettagli per vedere e gestire i metodi di pagamento per quella capacità.
+
+. Selezionare la scheda *Licenze* o *Abbonamenti*.
+. Filtra la tabella selezionando un filtro di colonna e un valore in base al quale filtrare.  Ad esempio, nella scheda *Abbonamenti*, è possibile filtrare la colonna Tipo per Contratto annuale o Abbonamento.
+. Personalizza le colonne mostrate nella tabella.  È possibile aggiungere e rimuovere colonne dalla tabella selezionando l'icona *Colonna* per indicare quali colonne si desidera mostrare o nascondere.
+. Espandi una riga qualsiasi per visualizzare i dettagli relativi a ciò che è incluso nell'abbonamento o nella licenza, alla capacità acquistata e ai termini.
+. Utilizzare il menu azioni per gestire una licenza o un abbonamento specifico, ad esempio per aggiornare una licenza o associare un abbonamento a un'organizzazione diversa.
++
+Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Panoramica* per un servizio specifico.  È possibile aggiungere licenze o abbonamenti solo dalla scheda *Licenze dirette* o dalla scheda *Abbonamenti Marketplace*, rispettivamente.
+
++
+link:task-data-services-licenses.html["Scopri di più sulla gestione delle licenze."] link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti."]
+
+
+
+
+
+=== Risolvere problemi di licenza o abbonamento
+
+Puoi visualizzare i problemi relativi a licenze e abbonamenti che devono essere risolti.  I problemi riguardano licenze e abbonamenti in scadenza o che stanno raggiungendo la capacità massima.
+
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Selezionare *Panoramica*.
+. Selezionare *Risolvi* per il riquadro *Richiede azione* per visualizzare i problemi che devono essere risolti.  Se *Risolvi* non viene visualizzato, al momento non ci sono problemi che richiedono un intervento.
+. Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.
+. Utilizzare il menu azioni per risolvere il problema.
++
+link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"^] . link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"^] .
+
+

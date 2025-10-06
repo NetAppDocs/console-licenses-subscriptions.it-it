@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
+summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
+---
+= Accetta e configura un'offerta privata di AWS Marketplace per la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Accetta un'offerta privata del Marketplace per la console NetApp nella console AWS e configura le credenziali AWS nella console.
+
+.Prima di iniziare
+* Collabora con il reparto vendite NetApp per creare un'offerta privata e ottenere il link di attivazione.
+* Assicurati di disporre delle autorizzazioni AWS Marketplace richieste:
++
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html["Visualizzazione e sottoscrizione di un'offerta privata"]
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["Validazione delle autorizzazioni dell'acquirente"]
+
+
+
+
+
+
+== Accetta l'offerta privata nella console AWS
+
+Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.
+
+[NOTE]
+====
+Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare alcuni passaggi potrebbe causare errori di fatturazione. Accettare e attivare l'offerta più volte comporta un doppio addebito.
+
+====
+.Passi
+. Fai clic sul collegamento di attivazione dell'offerta privata del tuo team di vendita NetApp . Il collegamento dovrebbe essere simile al seguente:
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+ If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
++
+** Utilizzo di policy gestite da AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* o *AWSMarketplaceFullAccess*
+** Utilizzo di policy IAM personalizzate: `aws-marketplace:ListPrivateListings` E `aws-marketplace:ViewSubscriptions`
+
+
+. Verrai reindirizzato ad AWS Marketplace per visualizzare l'offerta privata.
++
+[NOTE]
+====
+Le offerte private vengono create in base agli annunci pubblici. Utilizzare il menu a discesa *Selezione offerta* per passare dalle offerte pubbliche a quelle private e viceversa.
+
+====
+. Esamina i dettagli dell'offerta privata e verifica che corrispondano al tuo accordo. Se sono errati, non accettarli. Contatta il team del tuo account NetApp .
++
+[NOTE]
+====
+Esistono due tipi di offerte private:
+
+** *Utilizzo su richiesta*
++
+*** Informazioni sui prezzi
+*** Termini legali
+
+
+** *Contrarre*
++
+*** Durata e date
+*** Impostazioni di rinnovo
+*** Opzioni contrattuali
+*** Prezzo totale del contratto
+
+
+
+
+Per le offerte contrattuali, inserire il numero di unità concordate. Per Cloud Volumes ONTAP, assicurati di selezionare la licenza corretta prima di sottoscrivere l'abbonamento.
+
+====
+. Per accettare l'offerta privata, procedi come segue:
++
+.. Per l'utilizzo on-demand, clicca su *Iscriviti*.
+.. Per le offerte contrattuali, inserisci il numero di unità per ciascun servizio e clicca su *Crea contratto*.
+
+
+. Dopo l'accettazione, un banner conferma l'iscrizione e fornisce le istruzioni per la registrazione.
+. Fai clic su *Configura il tuo account*. Verrà reindirizzato alla console NetApp per configurare l'abbonamento.
++
+[NOTE]
+====
+Se hai accettato l'offerta ma non hai completato la registrazione, torna alla pagina del prodotto. Per visualizzare l'elenco dei contratti, fare clic su *Visualizza opzioni di acquisto* per visualizzare l'offerta, quindi selezionare *Configura il tuo account*.
+
+====
+. Sign in https://console.netapp.com[] con il tuo account Console.
+. Dopo aver effettuato l'accesso, vai a https://console.netapp.com/licenses/overview[] . Ti verrà chiesto di:
++
+.. Inserisci un *Nome visualizzato* per l'abbonamento al Marketplace.
+.. Selezionare gli *Account* della console con accesso all'abbonamento.
+.. [Facoltativo] Abilita *Sostituisci abbonamento esistente* per sovrascrivere un abbonamento esistente per un account.
++
+[NOTE]
+====
+*** La sostituzione si applica a un solo account Console.
+*** Per associare più account allo stesso abbonamento, configura manualmente gli account aggiuntivi.
+*** Se le credenziali non sono mai state associate a un abbonamento, associarle manualmente come descritto nella sezione successiva.
+
+
+====
+
+
+. Fare clic su *Associa* e poi su *Fine*.
+
+
+[IMPORTANT]
+====
+Per applicare i prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.
+
+====
+
+
+== Configurare l'abbonamento con le credenziali AWS
+
+. Nella Console, vai su *Governance > Licenze e abbonamenti* e seleziona la scheda *Abbonamenti Marketplace*.
+. Individuare l'abbonamento creato in precedenza. Espandi la riga per confermare che è associata al tuo account Console.
++
+[NOTE]
+====
+A causa delle limitazioni di AWS Marketplace, alcuni dettagli delle offerte private non vengono esposti al di fuori della console AWS. Se un campo visualizza `N/A` , controlla le informazioni direttamente nella console AWS.
+
+====
+. Fare clic sul menu a tre punti accanto all'abbonamento e selezionare *Configura*.
+. Selezionare le *credenziali dell'account AWS* appropriate e fare clic su *Configura*.
+
+
+[NOTE]
+====
+I costi del Marketplace per queste credenziali vengono fatturati utilizzando l'abbonamento al Marketplace. Per i contratti annuali, i costi vengono conteggiati nell'utilizzo del contratto.
+
+====
+[IMPORTANT]
+====
+Ripeti i passaggi da 1 a 4 per ogni credenziale AWS nel tuo account Console che desideri associare all'abbonamento.
+
+* Per le credenziali in altre organizzazioni della Console, utilizzare il menu a discesa *Organizzazione* e ripetere i passaggi.
+* Per le credenziali di altri agenti, utilizzare il menu a discesa *Agente* e ripetere i passaggi.
+
+
+====

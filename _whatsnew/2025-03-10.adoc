@@ -1,0 +1,15 @@
+= Possibilità di rimuovere gli abbonamenti
+:allow-uri-read: 
+
+
+
+
+=== Possibilità di rimuovere gli abbonamenti
+
+Ora puoi rimuovere gli abbonamenti dal portafoglio digitale se li hai annullati.
+
+
+
+=== Visualizza la capacità consumata per gli abbonamenti Marketplace
+
+Quando si visualizzano gli abbonamenti PAYGO, ora è possibile visualizzare la capacità consumata dell'abbonamento.

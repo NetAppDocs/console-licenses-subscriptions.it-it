@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: Visualizza i dettagli del contratto per ciascuno dei tuoi cluster ONTAP locali.  Se non hai ancora individuato un cluster nella Console, puoi farlo anche tu. 
+---
+= Gestisci le licenze per ONTAP on -premise
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+È possibile visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP locali nella Console.  Se non hai ancora scoperto un cluster, puoi comunque scoprirli.
+
+.Prima di iniziare
+La Console visualizza i dettagli sui cluster ONTAP locali che hai scoperto come sistemi o che sono associati a un account del sito di supporto NetApp che hai aggiunto alla Console.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Scopri come scoprire un cluster ONTAP on-premise"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Scopri come gestire le credenziali NSS associate alla tua organizzazione o account Console"^]
+
+
+
+
+== Visualizza le informazioni sul cluster e i dettagli del contratto
+
+Visualizza lo stato dei contratti hardware e software per i tuoi cluster ONTAP on-premise in modo da poterli rinnovare prima che scadano.
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Selezionare * ONTAP locale*.
++
+Le date di scadenza del contratto software e del contratto hardware vengono visualizzate sulla riga per ciascun cluster.
+
++
+Se ti viene chiesto di immettere prima le credenziali del tuo account NetApp Support Site (NSS), seleziona *Aggiungi account NSS*.  Dopo aver aggiunto l'account, vengono visualizzati i cluster associati a tale account NSS.
+
+. Se il contratto è prossimo alla scadenza o è già scaduto, puoi selezionare l'icona della chat in basso a destra della Console per richiedere un'estensione del contratto.
+. Per visualizzare maggiori dettagli, selezionaimage:button_down_caret.png["Un'icona con accento discendente"] per espandere le informazioni del cluster.
+
+
+
+
+== Scopri i cluster
+
+Se non hai ancora individuato un cluster ONTAP locale come sistema, puoi farlo dalla Console.  Una volta individuato, il cluster è disponibile come sistema, così da poterlo gestire.
+
+.Prima di iniziare
+È necessario comprendere le opzioni di individuazione e gestione (individuazione tramite un agente della console o individuazione diretta senza agente), nonché i requisiti di individuazione.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Scopri le opzioni e i requisiti di scoperta"^] .
+
+.Passi
+. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Selezionare * ONTAP locale*.
++
+I cluster ONTAP vengono visualizzati con uno stato che indica se sono stati rilevati nella Console.
+
++
+Se ti viene chiesto di immettere prima le credenziali del tuo account NetApp Support Site (NSS), seleziona *Aggiungi account NSS*.  Dopo aver aggiunto l'account, vengono visualizzati i cluster associati a tale account NSS.
+
+. Selezionare *Scopri* per il cluster che si desidera gestire tramite la Console.
+. Nella pagina _Discover ONTAP Cluster_, immettere la password per l'account utente amministratore e selezionare *Discover*.
+
+
+
+NOTE: L'indirizzo IP di gestione del cluster viene popolato in base alle informazioni provenienti dal tuo account del sito di supporto NetApp .
+
+.Risultato
+La Console rileva il cluster e lo aggiunge come sistema alla pagina Sistemi.  Lo stato del cluster diventa *Rilevato* nella pagina _ONTAP locale_.  Si noti che il nome del sistema è il nome del cluster.
+
+Ora puoi iniziare a gestire il cluster.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Scopri come gestire i cluster rilevati con un agente Console"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Scopri come gestire i cluster scoperti direttamente"^]
+
