@@ -40,7 +40,7 @@ NOTE: Sebbene sia possibile aggiornare e rimuovere le licenze dalla dashboard, n
 link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"^] . link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"^] .
 
 .Passi
-. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
 . Selezionare *Panoramica*.
 . Selezionare *Visualizza* per il rispettivo servizio dati (incluso Cloud Volumes ONTAP) per visualizzare i dettagli e gestire licenze e abbonamenti.
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["Scopri di più sulla gestione delle licen
 
 Puoi visualizzare i problemi relativi a licenze e abbonamenti che devono essere risolti.  I problemi riguardano licenze e abbonamenti in scadenza o che stanno raggiungendo la capacità massima.
 
-. Dal menu NetApp Console, selezionare *Governance > Licenze e abbonamenti*.
+. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
 . Selezionare *Panoramica*.
 . Selezionare *Risolvi* per il riquadro *Richiede azione* per visualizzare i problemi che devono essere risolti.  Se *Risolvi* non viene visualizzato, al momento non ci sono problemi che richiedono un intervento.
 . Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.

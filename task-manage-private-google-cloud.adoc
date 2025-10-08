@@ -4,7 +4,7 @@ permalink: task-manage-private-google-cloud.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
 summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
 ---
-= Accetta e configura un'offerta privata di Google Cloud per la console NetApp
+= Accetta e configura un'offerta privata di Google Cloud per la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: Gestisci il tuo processo di offerta privata end-to-end generale e speci
 
 
 [role="lead"]
-Accetta un'offerta privata del Marketplace per l'elenco della console NetApp nella console Google Cloud.  Configurare le credenziali di Google Cloud nella Console.
+Accetta un'offerta privata del Marketplace per l'elenco della NetApp Console nella console Google Cloud.  Configurare le credenziali di Google Cloud nella Console.
 
 .Prima di iniziare
 * Collabora con il reparto vendite NetApp per creare un'offerta privata. Il tuo team di vendita deve fornirti il ​​link all'offerta.
@@ -64,7 +64,7 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 . Conferma che le informazioni sono accurate, accetta i termini e fai clic su **Accetta**.
 . Durante la creazione dell'abbonamento viene visualizzata un'icona di caricamento.
 . Una volta creata correttamente la sottoscrizione, verrà visualizzata una finestra pop-up: *La tua richiesta d'ordine è stata inviata a NetApp, Inc.*
-. Fare clic su **REGISTRATI CON NETAPP, Inc.**. Verrai reindirizzato alla console NetApp per completare la configurazione dell'abbonamento. Se l'offerta privata è stata accettata da un altro individuo nella tua organizzazione:
+. Fare clic su **REGISTRATI CON NETAPP, Inc.**. Verrai reindirizzato alla NetApp Console per completare la configurazione dell'abbonamento. Se l'offerta privata è stata accettata da un altro individuo nella tua organizzazione:
 +
 .. In Google Cloud Marketplace, vai a **Ordini**.
 .. Individua l'offerta con stato **In attesa**.
@@ -94,7 +94,7 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 
 == Associa l'abbonamento alle credenziali di Google Cloud
 
-. Nella Console, vai su **Governance > Licenze e abbonamenti** e seleziona la scheda **Abbonamenti Marketplace**.
+. Nella Console, vai su **Governance > Licenses and subscriptions** e seleziona la scheda **Abbonamenti Marketplace**.
 . Convalida i dettagli dell'abbonamento:
 +
 .. Individuare l'abbonamento creato nel processo di accettazione.

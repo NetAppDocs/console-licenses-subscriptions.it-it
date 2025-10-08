@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-Le informazioni sulla licenza vengono visualizzate automaticamente nella sezione **Licenze e abbonamenti** quando l'account NetApp Console associato alla licenza è anche un account NetApp Support Site e dispone di accesso a Internet.  Se hai utilizzato un account Console non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.
+Le informazioni sulla licenza vengono visualizzate automaticamente nella sezione ** Licenses and subscriptions** quando l'account NetApp Console associato alla licenza è anche un account NetApp Support Site e dispone di accesso a Internet.  Se hai utilizzato un account Console non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.
 
 È possibile aggiungere la licenza nella Console immettendo il numero di serie e l'account NSS associato oppure caricando il file di licenza NetApp (NLF).  Se la Console non ha accesso a Internet (installazioni in modalità privata), è necessario procurarsi un file di licenza NetApp da caricare.
 
@@ -12,7 +12,7 @@ Dopo aver acquistato una licenza dal tuo rappresentante commerciale NetApp , Net
 NOTE: Per inserire il numero di serie, prima https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["aggiungi il tuo account del sito di supporto NetApp alla console"^] .  Questo è l'account del sito di supporto NetApp autorizzato ad accedere al numero di serie.
 
 .Passi
-. Dal menu NetApp Console, seleziona *Governance > Licenze e abbonamenti*, quindi seleziona la scheda *Licenze dirette*.
+. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*, quindi selezionare la scheda *Licenze dirette*.
 . Seleziona *Aggiungi licenza*.
 . Nella finestra di dialogo *Aggiungi licenza*, inserisci le informazioni sulla licenza e seleziona *Aggiungi licenza*:
 +

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-licenses-subscriptions.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le licenze NetApp Console, gli abbonamenti NetApp Marketplace e NetApp Keystone. 
+summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le licenze NetApp Console , gli abbonamenti NetApp Marketplace e NetApp Keystone. 
 ---
 = Scopri di più su licenze e abbonamenti
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le lice
 
 
 [role="lead"]
-È possibile gestire e monitorare le licenze acquistate da NetApp (BYOL), gli abbonamenti al marketplace per i servizi dati NetApp (incluso Cloud Volumes ONTAP) e gli abbonamenti NetApp Keystone nella console NetApp .
+È possibile gestire e monitorare le licenze acquistate da NetApp (BYOL), gli abbonamenti al marketplace per i servizi dati NetApp (incluso Cloud Volumes ONTAP) e gli abbonamenti NetApp Keystone nella NetApp Console.
 
 
 

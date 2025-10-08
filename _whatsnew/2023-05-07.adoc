@@ -12,7 +12,7 @@ Il BlueXP digital wallet ora identifica gli abbonamenti a Google Cloud Marketpla
 
 === Ripartizione dell'utilizzo della ricarica
 
-Ora puoi scoprire quanto ti viene addebitato quando sei abbonato a licenze basate sulla capacità.  I seguenti tipi di report di utilizzo sono disponibili per il download dal BlueXP digital wallet.  I report sull'utilizzo forniscono dettagli sulla capacità dei tuoi abbonamenti e ti indicano come ti vengono addebitate le risorse nei tuoi abbonamenti Cloud Volumes ONTAP .  I report scaricabili possono essere facilmente condivisi con altri.
+Ora puoi scoprire quanto ti viene addebitato quando sei abbonato a licenze basate sulla capacità. I seguenti tipi di report di utilizzo sono disponibili per il download dal BlueXP digital wallet. I report sull'utilizzo forniscono dettagli sulla capacità dei tuoi abbonamenti e ti indicano come ti vengono addebitate le risorse nei tuoi abbonamenti Cloud Volumes ONTAP . I report scaricabili possono essere facilmente condivisi con altri.
 
 * Utilizzo del pacchetto Cloud Volumes ONTAP
 * Utilizzo di alto livello

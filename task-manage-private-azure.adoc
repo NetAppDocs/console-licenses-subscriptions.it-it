@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
 ---
-= Accetta e attiva un'offerta privata di Azure per la console NetApp
+= Accetta e attiva un'offerta privata di Azure per la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Gestisci il tuo processo di offerta privata end-to-end generale e speci
 
 
 [role="lead"]
-Accetta e sottoscrivi un'offerta privata del Marketplace per la console NetApp nel portale di Azure.  Configurare le credenziali di Azure nella console.
+Accetta e sottoscrivi un'offerta privata del Marketplace per la NetApp Console nel portale di Azure.  Configurare le credenziali di Azure nella console.
 
 .Prima di iniziare
 * Collabora con il reparto vendite NetApp per creare un'offerta privata per il tuo ID di fatturazione Azure.
@@ -74,7 +74,7 @@ Se il pulsante *Acquista* non è disponibile, verifica di disporre delle autoriz
 
 . Facoltativamente, imposta *Tag* (per prodotto, posizione del sito, definizione del carico di lavoro o convenzione di denominazione).
 . Fai clic su *Controlla e iscriviti*, convalida i dettagli e poi fai clic su *Iscriviti*.
-. Una volta creato correttamente l'abbonamento, fare clic su *Configura account ora*. Verrai reindirizzato alla console NetApp per completare la configurazione.
+. Una volta creato correttamente l'abbonamento, fare clic su *Configura account ora*. Verrai reindirizzato alla NetApp Console per completare la configurazione.
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'a
 
 == Configurare l'abbonamento con le credenziali di Azure
 
-. Nella Console, vai su *Governance > Licenze e abbonamenti* e seleziona la scheda *Abbonamenti Marketplace*.
+. Nella Console, vai su *Governance > Licenses and subscriptions* e seleziona la scheda *Abbonamenti Marketplace*.
 . Convalida i dettagli dell'abbonamento:
 +
 .. Individua l'abbonamento Marketplace che hai creato.

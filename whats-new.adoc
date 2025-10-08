@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
-summary: Scopri le novità sulle licenze e gli abbonamenti di NetApp Console. 
+summary: Scopri le novità sulle licenze e gli abbonamenti NetApp Console . 
 ---
 = Cosa c'è di nuovo
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Scopri le novità sulle licenze e gli abbonamenti di NetApp Console.
 
 
 [role="lead"]
-Scopri le novità sulle licenze e gli abbonamenti di NetApp Console.
+Scopri le novità sulle licenze e gli abbonamenti NetApp Console .
 
 
 
@@ -24,9 +24,9 @@ Scopri le novità sulle licenze e gli abbonamenti di NetApp Console.
 
 === BlueXP è ora NetApp Console
 
-NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
+NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
 
-Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione della console NetApp"] .
+Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione NetApp Console"] .
 
 
 
@@ -120,7 +120,7 @@ Il BlueXP digital wallet ora identifica gli abbonamenti a Google Cloud Marketpla
 
 === Ripartizione dell'utilizzo della ricarica
 
-Ora puoi scoprire quanto ti viene addebitato quando sei abbonato a licenze basate sulla capacità.  I seguenti tipi di report di utilizzo sono disponibili per il download dal BlueXP digital wallet.  I report sull'utilizzo forniscono dettagli sulla capacità dei tuoi abbonamenti e ti indicano come ti vengono addebitate le risorse nei tuoi abbonamenti Cloud Volumes ONTAP .  I report scaricabili possono essere facilmente condivisi con altri.
+Ora puoi scoprire quanto ti viene addebitato quando sei abbonato a licenze basate sulla capacità. I seguenti tipi di report di utilizzo sono disponibili per il download dal BlueXP digital wallet. I report sull'utilizzo forniscono dettagli sulla capacità dei tuoi abbonamenti e ti indicano come ti vengono addebitate le risorse nei tuoi abbonamenti Cloud Volumes ONTAP . I report scaricabili possono essere facilmente condivisi con altri.
 
 * Utilizzo del pacchetto Cloud Volumes ONTAP
 * Utilizzo di alto livello
@@ -186,7 +186,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Cambia metodo di addebito
 
-Ora è possibile modificare il metodo di addebito per un sistema Cloud Volumes ONTAP che utilizza licenze basate sulla capacità.  Ad esempio, se hai distribuito un sistema Cloud Volumes ONTAP con il pacchetto Essentials, puoi modificarlo con il pacchetto Professional se le tue esigenze aziendali cambiano.
+Ora è possibile modificare il metodo di addebito per un sistema Cloud Volumes ONTAP che utilizza licenze basate sulla capacità. Ad esempio, se hai distribuito un sistema Cloud Volumes ONTAP con il pacchetto Essentials, puoi modificarlo con il pacchetto Professional se le tue esigenze aziendali cambiano.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Scopri come cambiare i metodi di ricarica"] .
 
@@ -198,9 +198,9 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Capacità consumata
 
-Ora ti mostra la capacità totale consumata nel tuo account e la capacità consumata per pacchetto di licenza.  Questo può aiutarti a capire come ti vengono addebitati i costi e se devi acquistare capacità aggiuntiva.
+Ora ti mostra la capacità totale consumata nel tuo account e la capacità consumata per pacchetto di licenza. Questo può aiutarti a capire come ti vengono addebitati i costi e se devi acquistare capacità aggiuntiva.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Uno screenshot che mostra la pagina per le licenze basate sulla capacità.  La pagina fornisce una panoramica della capacità consumata nel tuo account e poi suddivide la capacità consumata in base al pacchetto di licenza."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Uno screenshot che mostra la pagina per le licenze basate sulla capacità. La pagina fornisce una panoramica della capacità consumata nel tuo account e poi suddivide la capacità consumata in base al pacchetto di licenza."]
 
 
 
@@ -210,7 +210,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/ma
 
 === Licenze per cluster ONTAP on-premise
 
-Ora puoi visualizzare un inventario dei tuoi cluster ONTAP on-prem insieme alle date di scadenza dei loro hardware e contratti di servizio.  Sono disponibili anche ulteriori dettagli sui cluster.
+Ora puoi visualizzare un inventario dei tuoi cluster ONTAP on-prem insieme alle date di scadenza dei loro hardware e contratti di servizio. Sono disponibili anche ulteriori dettagli sui cluster.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Scopri come gestire le licenze per i cluster ONTAP on-prem"] .
 
