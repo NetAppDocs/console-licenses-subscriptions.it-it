@@ -29,30 +29,6 @@ NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Pe
 
 Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
 
-[role="tabbed-block"]
-====
-.AWS
---
-Il seguente video mostra i passaggi per abbonarsi alla NetApp Console da AWS Marketplace:
-
-.Iscriviti alla NetApp Console da AWS Marketplace
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
---
-.Azzurro
---
-Il video seguente mostra i passaggi per abbonarsi a NetApp Console da Azure Marketplace:
-
-.Iscriviti alla NetApp Console da Azure Marketplace
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
---
-.Google Cloud
---
-Il seguente video mostra i passaggi per abbonarsi a NetApp Console da Google Cloud Marketplace:
-
-.Iscriviti a NetApp Console da Google Cloud Marketplace
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
---
-====
 .Passi
 . Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
