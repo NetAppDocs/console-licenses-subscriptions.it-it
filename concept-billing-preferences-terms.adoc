@@ -1,0 +1,40 @@
+= 
+:allow-uri-read: 
+
+
+--
+barra laterale: barra laterale permalink: concept-billing-preferences-terms.html parole chiave: licenza, licenze, licenze, abbonamenti, riepilogo: "Le licenze e gli abbonamenti consentono di gestire e monitorare le licenze NetApp Console , gli abbonamenti NetApp Marketplace e NetApp Keystone." ---
+
+= Termini e definizioni :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/
+
+[role="lead"]
+Le preferenze di fatturazione controllano il modo in cui NetApp Console gestisce i pagamenti, le fatture e il comportamento di rinnovo per le tue licenze e i tuoi abbonamenti.  È possibile impostare le preferenze a uno dei due livelli:
+
+* *Globale*: si applica a licenze dirette, abbonamenti al marketplace e abbonamenti Keystone .
+* *Per abbonamento* — si applica solo a un marketplace specifico o a un contratto di licenza diretta.
+
+
+La fonte di fatturazione può essere la seguente:
+
+* *Abbonamenti Marketplace* — La fatturazione avviene tramite AWS Marketplace, Azure Marketplace o Google Cloud Marketplace.  Puoi scegliere l'account di fatturazione, la regione e le opzioni di rinnovo fornite dal cloud marketplace.
+* *Licenze dirette* — La fatturazione avviene tramite NetApp.  Nella NetApp Console puoi gestire le chiavi di licenza, i contatti per le fatture e il rinnovo automatico.
+* * Abbonamenti Keystone * — La fatturazione avviene tramite il contratto Keystone .  Nella NetApp Console puoi gestire i destinatari delle fatture e i tag dei centri di costo.
+
+
+== Autorizzazioni Per modificare le preferenze di fatturazione è necessario il ruolo di *Amministratore account* o *Amministratore fatturazione*.  Gli operatori possono visualizzare le preferenze ma non modificarle.
+
+== Imposta le preferenze di fatturazione
+
+Le preferenze di fatturazione consentono di: - applicare un unico elenco di contatti per le fatture in tutti i servizi, - allineare l'utilizzo ai centri di costo, - gestire le notifiche di rinnovo automatico e scadenza, - garantire che i nuovi sistemi Cloud Volumes ONTAP (CVO) ereditino l'account di fatturazione corretto.
+
+= Campi di fatturazione :page-role: riferimento
+
+== Campi Marketplace * *Fornitore Marketplace*: AWS, Azure o Google Cloud.  * *ID account di fatturazione/abbonamento* — Account di fatturazione cloud da addebitare.  * *Durata del contratto* — Durata del contratto e modalità di rinnovo.
+
+= Opzioni e definizioni di fatturazione :page-role: riferimento
+
+== Termini e opzioni * ** Licenze NetApp prima** — Fatture basate sulle licenze NetApp attive.  Ulteriori utilizzi vengono trasferiti sul mercato.  * **Solo abbonamenti al Marketplace** — Tutto l'utilizzo viene fatturato tramite contratti del Marketplace.  * **PAYGO (Pay-As-You-Go)** — Abbonamento flessibile fatturato in base all'utilizzo effettivo.  * **Contratto annuale** — Abbonamento a tempo determinato al marketplace.  * **Rinnovo automatico** — Rinnova automaticamente il contratto alla scadenza.  * **Configurazione CVO personalizzata** — Modalità avanzata per la mappatura di più abbonamenti per hyperscaler.  * **Licenza diretta** — Licenza gestita da NetApp utilizzata prima della capacità del marketplace.  * **Hyperscaler** — Fornitore AWS, Azure o Google Cloud.  * **Finestra di dialogo Conferma modifiche** — Viene visualizzata prima di applicare gli aggiornamenti per evitare modifiche accidentali alla fatturazione.
+
+== Percorsi di configurazione tipici | Scenario | Opzione di fatturazione consigliata | |-----------|-----------------------------| | Utilizzo della capacità NetApp acquistata | Licenze NetApp prima | | Utilizzo solo di contratti Marketplace | Solo abbonamenti Marketplace | | Fatturazione di più progetti con un unico provider cloud | Abilitazione della configurazione CVO personalizzata | | Ripristino della fatturazione predefinita | Disabilitazione della configurazione CVO personalizzata |
+
+--

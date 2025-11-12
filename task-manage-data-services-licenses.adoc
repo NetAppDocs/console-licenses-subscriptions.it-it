@@ -133,4 +133,9 @@ Dopo aver completato il pagamento e aver registrato la licenza sul sito di suppo
 
 == Visualizza lo stato della licenza
 
-Direttiva non risolta in <stdin> - include::_include/task-view-license-status.adoc[]
+Per gestire le licenze, è possibile raggrupparle in base al nome del servizio.  Ciò consente di visualizzare tutte le licenze relative a un servizio specifico.  È possibile espandere una riga per visualizzare informazioni dettagliate su ciascuna licenza correlata al servizio.  La riga radice di ciascun servizio visualizza il nome del servizio e la capacità utilizzata per tale servizio.  Le licenze vengono raggruppate automaticamente in base al nome del servizio.  La riga radice di ciascun servizio mostra il nome del servizio e la capacità utilizzata per quel servizio.
+
+.Passi
+. Dal menu Console, seleziona *Governance* > *Portafoglio digitale*, quindi seleziona la scheda *Licenze dirette*.
+. Fare clic sulla riga del nome del servizio per espanderla.  Vengono visualizzate tutte le licenze relative a quel servizio.  Ogni riga espansa visualizza informazioni dettagliate sulle licenze, tra cui ID licenza, numero di serie, capacità e data di scadenza.
+

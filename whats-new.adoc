@@ -18,6 +18,18 @@ Scopri le novità sulle licenze e gli abbonamenti NetApp Console .
 
 
 
+== 10 novembre 2025
+
+
+
+=== Gestisci le preferenze di fatturazione
+
+Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console.  Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .
+
+Per maggiori informazioni, vedere illink:https://docs.netapp.com/us-en/console/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"] .
+
+
+
 == 06 ottobre 2025
 
 

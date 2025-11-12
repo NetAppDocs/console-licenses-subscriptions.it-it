@@ -45,6 +45,14 @@ sidebar:
       url: "/task-manage-subscriptions.html"
     - title: Gestisci gli abbonamenti Keystone
       url: "/task-manage-keystone.html"
+    - title: Preferenze di fatturazione
+      entries:
+      - title: Scopri di più sulle preferenze di fatturazione
+        url: "/concept-billing-preferences.html"
+      - title: Gestisci le preferenze di fatturazione
+        url: "/task-manage-billing-preferences.html"
+      - title: Termini e definizioni
+        url: "/concept-billing-preferences-terms.html"
     - title: Conoscenza e supporto
       entries:
       - title: Registrati per ricevere supporto

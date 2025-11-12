@@ -97,37 +97,11 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 ====
 
 
-. Fare clic su *Associa* e poi su *Fine*.
+. Fare clic su **Associa**.
+. Compila il modulo per associare l'abbonamento alla tua organizzazione Console.  Quindi, fare clic su **Associa**.
+. Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
+. Esamina le opzioni di abbonamento al marketplace.
+. Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
+. Seleziona **Salva modifiche**.
+. Ripetere questi passaggi secondo necessità, se sono presenti più sottoscrizioni su più hyperscaler.
 
-
-[IMPORTANT]
-====
-Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.
-
-====
-
-
-== Configurare l'abbonamento con le credenziali di Azure
-
-. Nella Console, vai su *Governance > Licenses and subscriptions* e seleziona la scheda *Abbonamenti Marketplace*.
-. Convalida i dettagli dell'abbonamento:
-+
-.. Individua l'abbonamento Marketplace che hai creato.
-.. Espandi la riga per rivedere i dettagli e confermare che l'abbonamento è associato al tuo account Console.
-
-
-. Fare clic sul *menu a tre punti* accanto all'abbonamento e selezionare *Configura*.
-. Selezionare la *sottoscrizione Azure* appropriata e fare clic su *Configura*.
-
-
-Gli addebiti del Marketplace per questa credenziale di Azure vengono ora fatturati tramite l'abbonamento al Marketplace. Per i contratti annuali, l'utilizzo di questa credenziale viene conteggiato nel contratto annuale.
-
-[IMPORTANT]
-====
-Ripetere i passaggi da 1 a 4 per ogni credenziale di Azure nell'account della console che si desidera associare alla sottoscrizione.
-
-* Per associare le credenziali di un'altra organizzazione della Console, utilizzare il menu a discesa *Organizzazione* per cambiare organizzazione e ripetere i passaggi.
-* Per associare le credenziali di un altro agente, utilizzare il menu a discesa *Agente* per cambiare e ripetere i passaggi.
-
-
-====

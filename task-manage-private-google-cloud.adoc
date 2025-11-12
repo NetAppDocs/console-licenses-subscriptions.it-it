@@ -87,57 +87,11 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 ====
 
 
-. Fare clic su **Associa** e poi su **Fine**.
-
-
-
-
-== Associa l'abbonamento alle credenziali di Google Cloud
-
-. Nella Console, vai su **Governance > Licenses and subscriptions** e seleziona la scheda **Abbonamenti Marketplace**.
-. Convalida i dettagli dell'abbonamento:
-+
-.. Individuare l'abbonamento creato nel processo di accettazione.
-.. Verificare che sia visualizzato il piano corretto.
-.. Espandi la riga per confermare l'associazione dell'offerta privata.
-
-
-
-
-[NOTE]
-====
-A causa delle limitazioni di Google Cloud Marketplace, alcuni campi potrebbero essere visualizzati `N/A` . Queste informazioni sono disponibili solo nella console Google Cloud.
-
-====
-. [Facoltativo] Per rinominare l'abbonamento:
-+
-.. Fare clic sul **menu a tre punti** accanto all'abbonamento.
-.. Seleziona **Rinomina abbonamento**.
-
-
-. Fare nuovamente clic sul **menu a tre punti** e selezionare **Configura**.
-. Seleziona le **Credenziali** appropriate dell'account Google Cloud e fai clic su **Configura**.
-
-
-I costi del Marketplace per questa credenziale Google Cloud vengono ora fatturati tramite l'abbonamento al Marketplace. Per i contratti annuali, l'utilizzo di questa credenziale viene conteggiato nel contratto annuale.
-
-[IMPORTANT]
-====
-Ripeti i passaggi da 1 a 5 per ogni credenziale Google Cloud nel tuo account Console che desideri associare all'abbonamento Marketplace.
-
-* Per associare le credenziali di un altro account Console, utilizzare il menu a discesa **Account** per cambiare account e ripetere i passaggi.
-* Per associare le credenziali di un altro agente, utilizzare il menu a discesa **Agente** e ripetere i passaggi.
-
-
-====
-
-
-== Visualizza l'utilizzo di Google Cloud
-
-Per visualizzare lo stato e l'utilizzo del credito Google Cloud:
-
-. Nella console di Google Cloud, vai a **Cloud Marketplace**.
-. Fai clic su **I tuoi ordini**.
-. Dal menu a discesa **Seleziona account di fatturazione**, scegli l'account di fatturazione associato alla tua offerta privata.
-. Trova la tua offerta privata nella tabella, clicca sul **menu a tre punti** e seleziona **Visualizza credito**.
+. Fare clic su **Associa**.
+. Compila il modulo per associare l'abbonamento alla tua organizzazione Console.  Quindi, fare clic su **Associa**.
+. Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
+. Esamina le opzioni di abbonamento al marketplace.
+. Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
+. Seleziona **Salva modifiche**.
+. Ripetere questi passaggi secondo necessità, se sono presenti più sottoscrizioni su più hyperscaler.
 
