@@ -30,7 +30,7 @@ La Console visualizza i dettagli sui cluster ONTAP locali che hai scoperto come 
 Visualizza lo stato dei contratti hardware e software per i tuoi cluster ONTAP on-premise in modo da poterli rinnovare prima che scadano.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Selezionare * ONTAP locale*.
 +
 Le date di scadenza del contratto software e del contratto hardware vengono visualizzate sulla riga per ciascun cluster.
@@ -54,7 +54,7 @@ Se non hai ancora individuato un cluster ONTAP locale come sistema, puoi farlo d
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Scopri le opzioni e i requisiti di scoperta"^] .
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Selezionare * ONTAP locale*.
 +
 I cluster ONTAP vengono visualizzati con uno stato che indica se sono stati rilevati nella Console.

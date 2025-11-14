@@ -14,7 +14,7 @@ summary: Configura le preferenze di fatturazione nella NetApp Console per contro
 
 
 [role="lead"]
-Puoi configurare e gestire le preferenze di fatturazione nella NetApp Console per controllare il modo in cui l'utilizzo della capacità, i rinnovi e le fatture vengono applicati agli account della tua organizzazione.  Le preferenze di fatturazione determinano se i costi di utilizzo provengono da licenze NetApp , contratti del cloud marketplace o accordi Keystone .
+Puoi configurare e gestire le preferenze di fatturazione nella NetApp Console per controllare il modo in cui l'utilizzo della capacità, i rinnovi e le fatture vengono applicati agli account della tua organizzazione. Le preferenze di fatturazione determinano se i costi di utilizzo provengono da licenze NetApp , contratti del cloud marketplace o accordi Keystone .
 
 .Prima di iniziare
 * Hai il ruolo di *Amministratore fatturazione* o *Amministratore organizzazione*.
@@ -29,7 +29,7 @@ Puoi configurare e gestire le preferenze di fatturazione nella NetApp Console pe
 È possibile selezionare il modo in cui la Console applica i costi di utilizzo alle diverse fonti di fatturazione.  In questo modo si determina quali account vengono addebitati per primi e come vengono gestiti i rinnovi.
 
 .Passi
-. Nella NetApp Console, seleziona *Governance > Licenses and subscriptions*.
+. Nella NetApp Console, seleziona *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Preferenze di fatturazione*.
 . Scegli una delle seguenti modalità di fatturazione:
 +
@@ -58,7 +58,7 @@ NOTE: La modifica della modalità di fatturazione comporta una ridistribuzione d
 La configurazione CVO personalizzata consente di assegnare più abbonamenti al marketplace sotto lo stesso hyperscaler.  Utilizzare questa modalità se l'organizzazione gestisce account di fatturazione diversi per unità aziendali o ambienti separati.
 
 .Passi
-. Nella NetApp Console, seleziona *Governance > Licenses and subscriptions*.
+. Nella NetApp Console, seleziona *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Preferenze di fatturazione*.
 . In **Abbonamenti Marketplace**, abilita *Configurazione CVO personalizzata*.
 . Seleziona **Salva modifiche**.
@@ -82,7 +82,7 @@ WARNING: Dopo aver abilitato questa opzione, la configurazione CVO personalizzat
 . Selezionare la vista per quanto segue:
 +
 ** *Nome dell'abbonamento al Marketplace*
-** *Progetto Cloud* (solo Google Cloud)
+** *Progetto Cloud*
 ** *Tipo di abbonamento* (annuale o PAYGO)
 
 

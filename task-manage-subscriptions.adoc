@@ -16,8 +16,8 @@ summary: 'Abbonati ai servizi dati NetApp (incluso Cloud Volumes ONTAP) dal mark
 [role="lead"]
 Quando ti abboni ai servizi dati NetApp (incluso Cloud Volumes ONTAP) dal marketplace di un provider cloud, verrai reindirizzato al sito Web della Console, dove potrai salvare l'abbonamento e associarlo alla tua organizzazione Console.  Dopo l'iscrizione, ogni abbonamento potrà essere gestito nella Console.
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità standard)"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità limitata)"^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-subscribe-standard-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità standard)"^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-subscribe-restricted-mode.html["Scopri come abbonarti ai servizi dati NetApp (modalità limitata)"^]
 
 
 
@@ -30,7 +30,7 @@ NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Pe
 Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Sopra la tabella *Abbonamenti*, seleziona *Aggiungi abbonamento*.
 . Nella finestra di dialogo Aggiungi abbonamento, seleziona un provider cloud.
@@ -51,7 +51,7 @@ Puoi visualizzare i dettagli di ogni abbonamento PAYGO e contratto annuale assoc
 Per Google Cloud, puoi anche identificare gli abbonamenti al marketplace associati a un'offerta privata, il che ti consente di verificare di aver accettato correttamente l'offerta.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 +
 Vedrai solo gli abbonamenti associati all'organizzazione che stai visualizzando al momento.
@@ -94,7 +94,7 @@ Contratti::
 Puoi rinominare un abbonamento per identificare meglio come viene utilizzato dalla tua organizzazione.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Seleziona il menu azioni nella riga corrispondente all'abbonamento che desideri gestire e scegli *Rinomina*.
 
@@ -110,7 +110,7 @@ Il formato delle credenziali dipende dal marketplace che stai utilizzando.  Ad e
 L'opzione Configura è disattivata se hai annullato l'iscrizione a un abbonamento.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Selezionare il menu azioni nella riga corrispondente all'abbonamento che si desidera configurare e scegliere *Configura*.
 . Nella finestra di dialogo Configura, seleziona una credenziale da configurare con l'abbonamento.  È possibile scegliere solo tra le credenziali associate all'agente attualmente selezionato.  Se non vedi la credenziale che desideri utilizzare, prova a passare a una vista agente diversa.
@@ -130,7 +130,7 @@ Per associare un abbonamento a un'organizzazione, è necessario disporre del ruo
 NOTE: La console supporta Identity and Access Management (IAM) in modalità standard, che utilizza le organizzazioni per gestire utenti e risorse.  Se utilizzi la Console in modalità privata o limitata, puoi utilizzare un _account_ Console per gestire utenti e risorse, compresi gli abbonamenti.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga dell'abbonamento che desideri associare, apri il menu azioni e seleziona *Associa*.
 . Nella finestra di dialogo *Associa l'abbonamento*, seleziona una o più organizzazioni da associare all'abbonamento.
@@ -147,7 +147,7 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente nella barra di navigazione in alto.
 
 .Passi
-. Dal menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga contenente l'abbonamento di cui desideri visualizzare le credenziali, seleziona Visualizza.  Se a un abbonamento sono associate più credenziali, è possibile che non ne venga visualizzata alcuna e si verrà indirizzati a selezionare un agente diverso.
 
@@ -159,7 +159,7 @@ NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente ne
 Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa operazione cancella tutti i dati e le impostazioni associati.
 
 .Passi
-. Nel menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga relativa all'abbonamento che desideri deconfigurare, fai clic sul menu azioni e seleziona *Deconfigura*.
 . Seguire le istruzioni per rimuovere o reimpostare eventuali impostazioni o dati associati.
@@ -182,7 +182,7 @@ Se l'abbonamento è ancora configurato, l'opzione *Rimuovi* non viene visualizza
 
 ====
 .Passi
-. Nel menu NetApp Console , selezionare *Governance > Licenses and subscriptions*.
+. Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga relativa all'abbonamento che desideri rimuovere, apri il menu azioni e seleziona *Rimuovi*.
 +
