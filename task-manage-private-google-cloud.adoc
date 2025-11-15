@@ -96,4 +96,4 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 . Ripetere questi passaggi secondo necessità, se sono presenti più abbonamenti su più hyperscaler.
 
 
-Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vederelink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"] .
+Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].

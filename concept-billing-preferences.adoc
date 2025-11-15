@@ -14,7 +14,7 @@ summary: 'Scopri come le licenze e gli abbonamenti definiscono il modo in cui Ne
 
 
 [role="lead"]
-Le preferenze di fatturazione determinano il modo in cui gestisci i pagamenti, le fatture e il comportamento di rinnovo per le licenze e gli abbonamenti attivi della tua organizzazione.  È possibile applicare queste preferenze a livello globale, in modo che influiscano su tutte le relazioni di fatturazione all'interno dell'organizzazione, oppure a livello di singolo abbonamento quando un contratto specifico richiede una configurazione specifica.
+Le preferenze di fatturazione ti consentono di stabilire come gestire i pagamenti e il comportamento di rinnovo per le tue licenze e i tuoi abbonamenti attivi. È possibile applicare queste preferenze a livello globale, in modo che influiscano su tutti i rapporti di fatturazione, oppure a livello di singolo abbonamento quando un contratto specifico richiede una configurazione specifica.
 
 * Gli *abbonamenti Marketplace* corrispondono ai contratti del cloud marketplace (AWS, Azure o Google Cloud) in cui i costi di utilizzo vengono addebitati tramite un account hyperscaler.
 * Le *licenze dirette* rappresentano le licenze acquistate direttamente da NetApp, gestite nella NetApp Console tramite chiavi di licenza, destinatari delle fatture e opzioni di rinnovo.
@@ -38,7 +38,12 @@ Ad esempio, le preferenze di fatturazione globali possono unificare l'elenco dei
 
 Le preferenze di fatturazione vengono configurate nella sezione * Licenses and subscriptions* della NetApp Console.
 
-Da lì puoi: - Impostare le preferenze di fatturazione per la tua organizzazione - Abilitare la configurazione CVO personalizzata per la mappatura avanzata - Modificare o aggiornare i dettagli dell'abbonamento al marketplace
+Da lì puoi:
+
+* Imposta le preferenze di fatturazione per la tua organizzazione
+* Abilita la configurazione CVO personalizzata per la mappatura avanzata
+* Modifica o aggiorna i dettagli dell'abbonamento al marketplace
+
 
 
 

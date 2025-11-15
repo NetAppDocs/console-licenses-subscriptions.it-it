@@ -106,4 +106,4 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 . Ripetere questi passaggi secondo necessità, se sono presenti più abbonamenti su più hyperscaler.
 
 
-Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vederelink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"] .
+Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].
