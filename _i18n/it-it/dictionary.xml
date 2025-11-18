@@ -848,7 +848,6 @@
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">Le *licenze dirette* rappresentano le licenze acquistate direttamente da NetApp, gestite nella NetApp Console tramite chiavi di licenza, destinatari delle fatture e opzioni di rinnovo.</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">Puoi configurare il modo in cui la tua organizzazione alloca e paga i servizi in base al tuo modello di approvvigionamento.</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">Permessi</block>
-  <block id="6e70716fedade61a999818a444a40c58" category="paragraph">Solo gli utenti con il ruolo di *Amministratore account* o *Amministratore fatturazione* possono modificare le preferenze di fatturazione.  Questi ruoli garantiscono che solo gli utenti autorizzati possano modificare i contatti di fatturazione, i centri di costo o le impostazioni di rinnovo che incidono sui dati di fatturazione dell'organizzazione.  Gli utenti con il ruolo di *Operatore* possono visualizzare le preferenze esistenti, ma non hanno l'autorizzazione per modificarle.</block>
   <block id="0429b17ec8c6088185487126a1732401" category="section-title">Preferenze di fatturazione</block>
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">Le preferenze di fatturazione garantiscono che i costi di utilizzo e i rinnovi vengano applicati correttamente.  Una corretta configurazione riduce le controversie sulla fatturazione e semplifica la gestione dei modelli di licenza ibridi che combinano la capacità di proprietà di NetApp con quella acquistata sul marketplace.</block>
   <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">Ad esempio, le preferenze di fatturazione globali possono unificare l'elenco dei contatti per le fatture, in modo che tutti i servizi condividano un unico amministratore di fatturazione.  È inoltre possibile utilizzare i tag dei centri di costo per allineare l'utilizzo tra reparti o regioni e abilitare il rinnovo automatico per evitare interruzioni del servizio.  Le nuove distribuzioni Cloud Volumes ONTAP (CVO) ereditano automaticamente la modalità di fatturazione definita qui, mantenendo coerente il modello di addebito della tua organizzazione man mano che vengono aggiunti nuovi sistemi.</block>
@@ -891,9 +890,7 @@
   <block id="5435d0c2ab2affaf5e146abe5dcdf92d" category="paragraph">Si consideri, ad esempio, un'organizzazione che combina sia licenze NetApp dirette sia abbonamenti al marketplace.  Una configurazione tipica imposterebbe *Prima le licenze NetApp * come modalità di fatturazione predefinita per utilizzare la capacità prepagata prima della fatturazione del marketplace.  Quindi, nella *configurazione CVO personalizzata*, a ciascun hyperscaler (AWS, Azure, Google Cloud) verrà assegnato il corrispondente ID di sottoscrizione.</block>
   <block id="a3bc016aa80a8b7ecc67c3ff4f3f16a7" category="paragraph">Dopo aver salvato queste impostazioni, gli amministratori possono rivedere i mapping in * Licenses and subscriptions* per verificare che ciascun servizio punti all'account corretto.  Per una convalida aggiuntiva, possono confrontare i dati di utilizzo nella NetApp Console con i dashboard di fatturazione cloud e modificare i tag dei centri di costo o i contatti secondo necessità per mantenere la coerenza dei report.</block>
   <block id="e6f95da84fc231235869778f84686fab" category="summary">Configura le preferenze di fatturazione nella NetApp Console per controllare come vengono fatturate e rinnovate le licenze, gli abbonamenti al marketplace e i contratti Keystone .</block>
-  <block id="531f703ee6ea7df16c5a41c3d86dbca1" category="list-text">Hai il ruolo di *Amministratore fatturazione* o *Amministratore organizzazione*.</block>
   <block id="9b5b2baaae7db459fd9d75d10938da0d" category="list-text">Tutti gli abbonamenti rilevanti al marketplace sono collegati alla tua organizzazione.</block>
-  <block id="501d44233b9d81f23f07411ed57f5152" category="list-text">Hai esaminato la configurazione esistente in * Licenses and subscriptions*.</block>
   <block id="0b2612372a98d97a0ca0b61bdbdea261" category="section-title">Imposta le preferenze di fatturazione</block>
   <block id="142c2c7e22727e1a1c35317131d3de9b" category="paragraph">È possibile selezionare il modo in cui la Console applica i costi di utilizzo alle diverse fonti di fatturazione.  In questo modo si determina quali account vengono addebitati per primi e come vengono gestiti i rinnovi.</block>
   <block id="f40ec4f154501ac20f03c9cbaae03f9e" category="list-text">Seleziona *Preferenze di fatturazione*.</block>
@@ -913,7 +910,6 @@
   <block id="40d30756ab89016fe82ba2526a295213" category="list-text">In **Abbonamenti Marketplace**, abilita *Configurazione CVO personalizzata*.</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">Seleziona **Salva modifiche**.</block>
   <block id="9e7b72435a33e4f2cf071cb9b2cb1ce1" category="paragraph">Ora puoi assegnare specifici abbonamenti al marketplace a singole istanze Cloud Volumes ONTAP nello stesso hyperscaler.</block>
-  <block id="f983fe6e123240e077e710d661147ac1" category="admonition">Dopo aver abilitato questa opzione, la configurazione CVO personalizzata non può essere ripristinata dalla scheda **Preferenze di fatturazione**.  Disabilitandola, tutta la fatturazione CVO verrà reimpostata sulla configurazione di fatturazione standard per i tuoi servizi dati.</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">Modifica la configurazione del marketplace</block>
   <block id="69476e8919a2f56846d34ab0189304c4" category="paragraph">È possibile modificare i dettagli di configurazione del marketplace per associare gli abbonamenti ai progetti cloud o per aggiornare le informazioni contrattuali.</block>
   <block id="5d4b73c76a591653e1df0169162ac88d" category="list-text">Apri * Licenses and subscriptions*.</block>
@@ -927,7 +923,6 @@
   <block id="6d507b9a707831f7702af21fa5dec071" category="list-title">Conferma le modifiche</block>
   <block id="c2fd1f7e9fbe57dd7fddc94ac994a253" category="list-text">Dopo aver modificato le preferenze di fatturazione, seleziona *Salva modifiche*.</block>
   <block id="7a0f40b79bbec07585e819a33e79611f" category="list-text">Rivedi il riepilogo nella finestra di dialogo di conferma.</block>
-  <block id="71ce628e30f571d756dcdccac67b7723" category="list-text">Seleziona *Salva* per applicare gli aggiornamenti oppure *Annulla* per ignorarli.</block>
   <block id="7ef695122371dc395ee3d5f854afa853" category="list-title">Ripristina la fatturazione standard</block>
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">Apri *Preferenze di fatturazione*.</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Disabilita *Configurazione CVO personalizzata*.</block>
@@ -957,4 +952,20 @@
   <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">Abilita la configurazione CVO personalizzata per la mappatura avanzata</block>
   <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">Modifica o aggiorna i dettagli dell'abbonamento al marketplace</block>
   <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>.</block>
+  <block id="33386a34a14a0561eb19403a93d36f22" category="paragraph">La gestione delle licenze e degli abbonamenti all'interno della NetApp Console è controllata tramite ruoli utente. Questi ruoli forniscono livelli di accesso distinti, abilitando o limitando azioni specifiche che gli utenti possono intraprendere per questa funzionalità.</block>
+  <block id="bbbabdbe1b262f75d99d62880b953be1" category="cell">Ruolo</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrizione</block>
+  <block id="fd7f09ef8e9a718e2777848cae52843e" category="cell">*Amministratore*</block>
+  <block id="8663bf4ff50df0909a72d5d0e9ff05b6" category="paragraph">Gli utenti con questo ruolo hanno il controllo completo su licenze e abbonamenti. Gli utenti amministratori possono:</block>
+  <block id="8eddc1c41914000db0ea3e11251b3da3" category="list-text">Visualizza tutte le licenze e gli abbonamenti.</block>
+  <block id="d83bb310069e6251f666fe2f1f1a246a" category="list-text">Aggiungi nuove licenze.</block>
+  <block id="54749d73ae5158a2c45dcfb6350f783e" category="list-text">Associare gli abbonamenti agli account.</block>
+  <block id="7c684c44eac747e0de059ae4dd1fa549" category="list-text">Modifica i dettagli della licenza esistente.</block>
+  <block id="cd2f258cff7669557a87899fd098b8d4" category="list-text">Eliminare le licenze o dissociare gli abbonamenti.</block>
+  <block id="db4280836d027a94bc5834b179386124" category="cell">*Spettatore*</block>
+  <block id="1d2f900fae86a6b1fedf8da639320914" category="paragraph">Gli utenti con questo ruolo hanno accesso in sola lettura. Gli utenti visualizzatori possono:</block>
+  <block id="eecec32a54a34e2a72e8e5f9f7f4f254" category="list-text">Hai accesso al ruolo *Amministratore*.</block>
+  <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">Hai esaminato la configurazione esistente per *licenze e abbonamenti*.</block>
+  <block id="d82371f41195b8bd95134fdb4b66488e" category="admonition">Dopo aver abilitato questa opzione, la configurazione CVO personalizzata non potrà essere ripristinata dalle **Preferenze di fatturazione**. Disattivando questa opzione, tutta la fatturazione CVO verrà reimpostata sulla configurazione di fatturazione standard per i tuoi servizi dati.</block>
+  <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">Seleziona *Salva* per applicare gli aggiornamenti oppure *Annulla* per ignorarli.</block>
 </blocks>

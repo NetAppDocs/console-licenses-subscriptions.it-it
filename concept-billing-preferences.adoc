@@ -26,8 +26,32 @@ Puoi configurare il modo in cui la tua organizzazione alloca e paga i servizi in
 
 == Permessi
 
-Solo gli utenti con il ruolo di *Amministratore account* o *Amministratore fatturazione* possono modificare le preferenze di fatturazione.  Questi ruoli garantiscono che solo gli utenti autorizzati possano modificare i contatti di fatturazione, i centri di costo o le impostazioni di rinnovo che incidono sui dati di fatturazione dell'organizzazione.  Gli utenti con il ruolo di *Operatore* possono visualizzare le preferenze esistenti, ma non hanno l'autorizzazione per modificarle.
+La gestione delle licenze e degli abbonamenti all'interno della NetApp Console è controllata tramite ruoli utente. Questi ruoli forniscono livelli di accesso distinti, abilitando o limitando azioni specifiche che gli utenti possono intraprendere per questa funzionalità.
 
+[cols="2,5"]
+|===
+| Ruolo | Descrizione 
+
+
+| *Amministratore*  a| 
+Gli utenti con questo ruolo hanno il controllo completo su licenze e abbonamenti. Gli utenti amministratori possono:
+
+* Visualizza tutte le licenze e gli abbonamenti.
+* Aggiungi nuove licenze.
+* Associare gli abbonamenti agli account.
+* Modifica i dettagli della licenza esistente.
+* Eliminare le licenze o dissociare gli abbonamenti.
+
+
+
+
+| *Spettatore*  a| 
+Gli utenti con questo ruolo hanno accesso in sola lettura. Gli utenti visualizzatori possono:
+
+* Visualizza tutte le licenze e gli abbonamenti.
+
+
+|===
 
 
 == Preferenze di fatturazione
