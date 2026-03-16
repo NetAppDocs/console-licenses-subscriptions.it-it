@@ -37,7 +37,7 @@ Ad esempio, gli amministratori incaricati della gestione delle risorse Cloud Vol
 
 NOTE: Sebbene sia possibile aggiornare e rimuovere le licenze dalla dashboard, non è possibile aggiungere una nuova licenza o un nuovo abbonamento.
 
-link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"^] . link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"^] .
+link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"]. link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"].
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
@@ -55,7 +55,7 @@ Ogni riquadro fornisce una panoramica grafica della capacità.  Puoi visualizzar
 Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Panoramica* per un servizio specifico.  È possibile aggiungere licenze o abbonamenti solo dalla scheda *Licenze dirette* o dalla scheda *Abbonamenti Marketplace*, rispettivamente.
 
 +
-link:task-data-services-licenses.html["Scopri di più sulla gestione delle licenze."] link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti."]
+link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze."] link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti."]
 
 
 
@@ -71,6 +71,6 @@ Puoi visualizzare i problemi relativi a licenze e abbonamenti che devono essere 
 . Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.
 . Utilizzare il menu azioni per risolvere il problema.
 +
-link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"^] . link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"^] .
+link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"]. link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"].
 
 

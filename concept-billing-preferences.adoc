@@ -16,7 +16,7 @@ summary: 'Scopri come le licenze e gli abbonamenti definiscono il modo in cui Ne
 [role="lead"]
 Le preferenze di fatturazione ti consentono di stabilire come gestire i pagamenti e il comportamento di rinnovo per le tue licenze e i tuoi abbonamenti attivi. È possibile applicare queste preferenze a livello globale, in modo che influiscano su tutti i rapporti di fatturazione, oppure a livello di singolo abbonamento quando un contratto specifico richiede una configurazione specifica.
 
-* Gli *abbonamenti Marketplace* corrispondono ai contratti del cloud marketplace (AWS, Azure o Google Cloud) in cui i costi di utilizzo vengono addebitati tramite un account hyperscaler.
+* Gli abbonamenti al marketplace corrispondono ai contratti del marketplace cloud (AWS, Azure o Google Cloud) in cui i costi di utilizzo vengono addebitati tramite un cloud provider account
 * Le *licenze dirette* rappresentano le licenze acquistate direttamente da NetApp, gestite nella NetApp Console tramite chiavi di licenza, destinatari delle fatture e opzioni di rinnovo.
 
 
@@ -65,7 +65,7 @@ Le preferenze di fatturazione vengono configurate nella sezione * Licenses and s
 Da lì puoi:
 
 * Imposta le preferenze di fatturazione per la tua organizzazione
-* Abilita la configurazione CVO personalizzata per la mappatura avanzata
+* Abilita la mappatura avanzata delle istanze Cloud Volumes ONTAP agli abbonamenti del marketplace
 * Modifica o aggiorna i dettagli dell'abbonamento al marketplace
 
 
@@ -119,7 +119,7 @@ Puoi scegliere tra le modalità di fatturazione in base alla strategia di approv
 * *PAYGO (Pay-As-You-Go)* — Fatture solo per l'effettivo utilizzo.
 * *Contratto annuale* — Blocca un periodo di abbonamento definito.
 * *Rinnovo automatico*: consente la proroga automatica delle licenze o dei contratti del marketplace alla loro scadenza.  La disattivazione di questa opzione richiede il rinnovo manuale per evitare l'interruzione del servizio.
-* *Configurazione CVO personalizzata*: consente di mappare più abbonamenti del marketplace a un singolo hyperscaler.  Ciò potrebbe essere utile quando diverse unità aziendali o progetti richiedono account di fatturazione distinti all'interno dello stesso ambiente cloud.
+* *Custom Cloud Volumes ONTAP configuration* — Consente di associare più abbonamenti del marketplace a un cloud provider. Ciò può essere utile quando diverse unità aziendali o progetti richiedono account di fatturazione distinti all'interno dello stesso ambiente cloud.
 
 
 
@@ -143,6 +143,6 @@ Gli esempi seguenti illustrano come diverse configurazioni di fatturazione si ad
 
 | Vuoi tornare a una semplice configurazione di fatturazione con un'unica fonte | *Disabilita la configurazione CVO personalizzata* 
 |===
-Si consideri, ad esempio, un'organizzazione che combina sia licenze NetApp dirette sia abbonamenti al marketplace.  Una configurazione tipica imposterebbe *Prima le licenze NetApp * come modalità di fatturazione predefinita per utilizzare la capacità prepagata prima della fatturazione del marketplace.  Quindi, nella *configurazione CVO personalizzata*, a ciascun hyperscaler (AWS, Azure, Google Cloud) verrà assegnato il corrispondente ID di sottoscrizione.
+Ad esempio, si consideri un'organizzazione che combina sia licenze dirette NetApp sia abbonamenti al marketplace. Una configurazione tipica imposterebbe *NetApp licenses first* come modalità di fatturazione predefinita per utilizzare la capacità prepagata prima della fatturazione del marketplace. Successivamente, nella *Configurazione CVO personalizzata*, a ciascun cloud provider (AWS, Azure, Google Cloud) verrebbe assegnato il relativo ID di abbonamento.
 
 Dopo aver salvato queste impostazioni, gli amministratori possono rivedere i mapping in * Licenses and subscriptions* per verificare che ciascun servizio punti all'account corretto.  Per una convalida aggiuntiva, possono confrontare i dati di utilizzo nella NetApp Console con i dashboard di fatturazione cloud e modificare i tag dei centri di costo o i contatti secondo necessità per mantenere la coerenza dei report.

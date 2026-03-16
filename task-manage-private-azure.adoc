@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-azure.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
-summary: Gestisci il tuo processo di offerta privata end-to-end generale e specifico per Hyperscaler e le guide di accettazione e attivazione NetApp Intelligent Services per AWS, Azure e Google Cloud. 
+summary: 'Accetta e sottoscrivi un"offerta privata del Marketplace per la NetApp Console nel portale di Azure.  Configurare le credenziali di Azure nella console.' 
 ---
 = Accetta e attiva un'offerta privata di Azure per la NetApp Console
 :hardbreaks:
@@ -90,7 +90,7 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 +
 [NOTE]
 ====
-*** Questa opzione di sostituzione è limitata a un singolo account Console.
+*** Questa opzione di sostituzione è limitata a una singola organizzazione Console.
 *** Per associare più account Console allo stesso abbonamento Marketplace, configura manualmente gli account aggiuntivi.
 
 
@@ -103,7 +103,7 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
 . Seleziona **Salva modifiche**.
-. Ripetere questi passaggi secondo necessità, se sono presenti più abbonamenti su più hyperscaler.
+. Ripeti questi passaggi se necessario, se ci sono più abbonamenti su più cloud provider.
 
 
 Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].
