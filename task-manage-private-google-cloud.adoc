@@ -76,8 +76,8 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 . Dopo aver effettuato l'accesso, verrai reindirizzato a `https://console.netapp.com/licenses/overview` . Verrà visualizzata una finestra popup in cui è necessario:
 +
 .. Inserisci un nome visualizzato per l'*Abbonamento al Marketplace SaaS*.
-.. Selezionare gli **Account** della console che devono avere accesso all'abbonamento.
-.. Facoltativamente, puoi abilitare **Sostituisci abbonamento esistente** se desideri sostituire automaticamente un abbonamento Marketplace esistente in un account Console.
+.. Seleziona le *Organizations* della NetApp Console che devono avere accesso all'abbonamento.
+.. Facoltativamente, puoi abilitare **Sostituisci abbonamento esistente** se desideri sostituire automaticamente un abbonamento Marketplace esistente in un'organizzazione Console.
 +
 [NOTE]
 ====

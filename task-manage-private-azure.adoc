@@ -85,8 +85,8 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 . Dopo aver effettuato l'accesso, verrai reindirizzato a https://console.netapp.com/licenses/overview[] . Ti verrà chiesto di:
 +
 .. Inserisci un *Nome visualizzato* per l'abbonamento al Marketplace.
-.. Selezionare gli *Account* della console che devono avere accesso a questo abbonamento.
-.. Facoltativamente, puoi abilitare *Sostituisci abbonamento esistente* per sostituire automaticamente un abbonamento Marketplace esistente in un account Console.
+.. Seleziona le *Organizations* della Console che devono avere accesso a questo abbonamento.
+.. Facoltativamente, puoi abilitare *Sostituisci abbonamento esistente* per sostituire automaticamente un abbonamento Marketplace esistente in un'organizzazione Console.
 +
 [NOTE]
 ====
