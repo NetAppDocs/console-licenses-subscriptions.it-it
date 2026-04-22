@@ -132,7 +132,7 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
-. Nella riga dell'abbonamento che desideri associare, apri il menu azioni e seleziona *Associa*.
+. Nella riga relativa all'abbonamento che si desidera associare, aprire il menu delle azioni e selezionare *Associa*.
 . Nella finestra di dialogo *Associa l'abbonamento*, seleziona una o più organizzazioni da associare all'abbonamento.
 . Seleziona *Associa*.
 
@@ -161,7 +161,7 @@ Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa o
 .Passi
 . Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
-. Nella riga relativa all'abbonamento che desideri deconfigurare, fai clic sul menu azioni e seleziona *Deconfigura*.
+. Nella riga relativa all'abbonamento che si desidera disconfigurare, selezionare il menu Azioni e quindi *Disconfigura*.
 . Seguire le istruzioni per rimuovere o reimpostare eventuali impostazioni o dati associati.
 . Attendi che lo stato venga aggiornato in *Non configurato*.
 

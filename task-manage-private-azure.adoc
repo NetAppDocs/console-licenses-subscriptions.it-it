@@ -48,17 +48,17 @@ Accettare e attivare l'offerta più volte comporta un doppio addebito.
 
 ====
 .Passi
-. Fai clic sul collegamento all'offerta privata fornito dal team di vendita NetApp e accedi. Se non è disponibile alcun collegamento, accedi direttamente al portale di Azure.
+. Seleziona il link dell'offerta privata fornito dal tuo team di vendita NetApp ed effettua l'accesso. Se non è disponibile alcun link, accedi direttamente al portale di Azure.
 . Cerca o seleziona *Marketplace* dai servizi di Azure.
-. Nella pagina Marketplace, clicca su *Gestione offerte private* nella sezione *Gestione*.
-. Fare clic su *Visualizza + accetta* per rivedere i dettagli dell'offerta privata.
+. Nella pagina Marketplace, seleziona *Gestione offerte private* nella sezione *Gestione*.
+. Seleziona *Visualizza + accetta* per rivedere i dettagli dell'offerta privata.
 +
 .. Verificare che i *dettagli del piano*, la *durata* e i *prezzi* siano corretti.
 .. Se i dati non sono corretti, non iscriverti. Contatta il team di vendita NetApp per correggere l'offerta.
 
 
-. Conferma e clicca su *Accetta offerta privata*.
-. Fare clic su *Acquista* per completare la procedura di acquisto.
+. Conferma e seleziona *Accetta offerta privata*.
+. Seleziona *Acquista* per completare la procedura di acquisto.
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ Se il pulsante *Acquista* non è disponibile, verifica di disporre delle autoriz
 
 
 . Facoltativamente, imposta *Tag* (per prodotto, posizione del sito, definizione del carico di lavoro o convenzione di denominazione).
-. Fai clic su *Controlla e iscriviti*, convalida i dettagli e poi fai clic su *Iscriviti*.
-. Una volta creato correttamente l'abbonamento, fare clic su *Configura account ora*. Verrai reindirizzato alla NetApp Console per completare la configurazione.
+. Seleziona *Rivedi e iscriviti*, convalida i dettagli e poi seleziona *Iscriviti*.
+. Una volta creato correttamente l'abbonamento, seleziona *Configura l'account ora*. Verrai reindirizzato alla NetApp Console per completare la configurazione.
 +
 [NOTE]
 ====
-Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 minuti. Se la pagina è stata chiusa prima di aver fatto clic su *Configura account ora*, tornare al servizio nel portale di Azure. L'abbonamento viene visualizzato come *Configurazione in sospeso*. Selezionarlo per continuare la configurazione.
+L'automazione lato Azure può richiedere dai 30 secondi ai 5 minuti per essere completata. Se la pagina è stata chiusa prima di selezionare *Configura account ora*, tornare al servizio nel portale di Azure. L'abbonamento viene visualizzato come *Configurazione in sospeso*. Selezionarlo per continuare la configurazione.
 
 ====
 . Verrai reindirizzato a https://console.netapp.com[] e ti verrà chiesto di effettuare l'accesso.
@@ -86,7 +86,7 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 +
 .. Inserisci un *Nome visualizzato* per l'abbonamento al Marketplace.
 .. Seleziona le *Organizations* della Console che devono avere accesso a questo abbonamento.
-.. Facoltativamente, puoi abilitare *Sostituisci abbonamento esistente* per sostituire automaticamente un abbonamento Marketplace esistente in un'organizzazione Console.
+.. Facoltativamente, abilita *Sostituisci abbonamento esistente* per sostituire automaticamente un abbonamento Marketplace esistente in un'organizzazione Console.
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ Il completamento dell'automazione lato Azure può richiedere da 30 secondi a 5 m
 ====
 
 
-. Fare clic su **Associa**.
-. Compila il modulo per associare l'abbonamento alla tua organizzazione Console.  Quindi, fare clic su **Associa**.
+. Seleziona **Associa**.
+. Completa il modulo per associare l'abbonamento alla tua organizzazione Console. Seleziona **Associa**.
 . Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.

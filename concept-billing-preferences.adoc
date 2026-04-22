@@ -58,7 +58,7 @@ Gli utenti con questo ruolo hanno accesso in sola lettura. Gli utenti visualizza
 
 Le preferenze di fatturazione garantiscono che i costi di utilizzo e i rinnovi vengano applicati correttamente.  Una corretta configurazione riduce le controversie sulla fatturazione e semplifica la gestione dei modelli di licenza ibridi che combinano la capacità di proprietà di NetApp con quella acquistata sul marketplace.
 
-Ad esempio, le preferenze di fatturazione globali possono unificare l'elenco dei contatti per le fatture, in modo che tutti i servizi condividano un unico amministratore di fatturazione.  È inoltre possibile utilizzare i tag dei centri di costo per allineare l'utilizzo tra reparti o regioni e abilitare il rinnovo automatico per evitare interruzioni del servizio.  Le nuove distribuzioni Cloud Volumes ONTAP (CVO) ereditano automaticamente la modalità di fatturazione definita qui, mantenendo coerente il modello di addebito della tua organizzazione man mano che vengono aggiunti nuovi sistemi.
+Ad esempio, le preferenze di fatturazione globali possono unificare l'elenco dei contatti per la fatturazione, in modo che tutti i servizi condividano un unico amministratore di fatturazione. È inoltre possibile utilizzare i tag dei centri di costo per allineare l'utilizzo tra reparti o regioni e abilitare il rinnovo automatico per evitare interruzioni del servizio. Le nuove implementazioni di Cloud Volumes ONTAP ereditano automaticamente la modalità di fatturazione definita qui, mantenendo il modello di chargeback dell'organizzazione coerente con l'aggiunta di nuovi sistemi.
 
 Le preferenze di fatturazione vengono configurate nella sezione * Licenses and subscriptions* della NetApp Console.
 
@@ -79,7 +79,7 @@ I campi di fatturazione memorizzano i metadati relativi alle modalità di fattur
 
 === Campi del Marketplace
 
-I campi Marketplace descrivono i contratti che provengono da un provider cloud come AWS, Azure o Google Cloud.  Questi campi definiscono il modo in cui NetApp Console collega i tuoi abbonamenti alle informazioni di fatturazione archiviate nel marketplace del provider.  Controllano anche il modo in cui vengono gestiti i rinnovi, le assegnazioni regionali e gli account di fatturazione.
+I campi Marketplace descrivono i contratti che hanno origine da un cloud provider come AWS, Azure o Google Cloud. Questi campi definiscono come NetApp Console collega i tuoi abbonamenti alle informazioni di fatturazione memorizzate nel marketplace del provider. Controllano inoltre come vengono gestiti i rinnovi, le assegnazioni regionali e gli account di fatturazione.
 
 * *Fornitore del Marketplace* — Identifica la piattaforma cloud in cui viene gestita la fatturazione.  Il fornitore determina le funzionalità supportate, i tipi di contratto e le regole di rinnovo.  Ad esempio, gli abbonamenti ad AWS Marketplace utilizzano la fatturazione basata sugli account, mentre Azure può supportare sia modelli basati sugli account che su quelli basati sui tenant.
 * *ID account di fatturazione o abbonamento*: specifica l'identificativo univoco per l'account utilizzato per elaborare gli addebiti.  In questo modo si garantisce che i dati di utilizzo vengano fatturati al corretto profilo di fatturazione cloud.
@@ -112,7 +112,7 @@ Le opzioni di fatturazione definiscono il modo in cui NetApp Console stabilisce 
 
 === Termini e opzioni
 
-Puoi scegliere tra le modalità di fatturazione in base alla strategia di approvvigionamento della tua organizzazione:
+Puoi scegliere tra diverse modalità di fatturazione a seconda della strategia di approvvigionamento della tua organizzazione:
 
 * * Licenze NetApp prima* — Dà priorità alla fatturazione tramite licenze NetApp attive.  Quando la capacità di queste licenze si esaurisce, l'utilizzo viene automaticamente trasferito all'abbonamento al marketplace collegato.
 * *Solo abbonamenti Marketplace* — Gestisce tutta la fatturazione tramite contratti Marketplace, bypassando le licenze NetApp .  Questa situazione è comune per le organizzazioni che standardizzano gli acquisti tramite la fatturazione del provider cloud.

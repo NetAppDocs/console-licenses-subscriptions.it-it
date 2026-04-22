@@ -13,17 +13,17 @@ summary: Ottieni una panoramica di tutti gli abbonamenti e le licenze per la tua
 == Utilizzare la panoramica della dashboard
 
 [role="lead"]
-Utilizza la dashboard *Panoramica* nella Console per monitorare lo stato delle tue licenze e dei tuoi abbonamenti, per assicurarti di poter gestire i costi e mantenere il servizio quando gli abbonamenti raggiungono le date di scadenza o i limiti di capacità.
+La dashboard *Panoramica* nella Console ti aiuta a monitorare lo stato delle tue licenze e abbonamenti per assicurarti di poter gestire i costi e mantenere il servizio attivo man mano che gli abbonamenti si avvicinano alle date di scadenza o ai limiti di capacità.
 
-È possibile visualizzare informazioni specifiche sulla licenza e sull'abbonamento per ciascuno dei servizi dati (incluso Cloud Volumes ONTAP) e approfondire i dettagli per ciascuno di essi.
+È possibile visualizzare informazioni specifiche su licenze e abbonamenti per ciascuno dei servizi dati (inclusi Cloud Volumes ONTAP).
 
-Verrai inoltre avvisato dei limiti di capacità o delle scadenze imminenti e ti verrà chiesto di intervenire.
+La dashboard Licenses and subscriptions ti avvisa dei limiti di capacità imminenti o delle scadenze, invitandoti ad adottare le misure necessarie.
 
 
 
 === Visualizza i dettagli su un servizio dati specifico
 
-La dashboard *Panoramica* consente di visualizzare i dettagli sui seguenti servizi dati:
+La dashboard *Panoramica* fornisce dettagli sui seguenti servizi:
 
 * Cloud Volumes ONTAP
 * Ripristino dopo un disastro
@@ -63,11 +63,11 @@ link:task-manage-data-services-licenses.html["Scopri di più sulla gestione dell
 
 === Risolvere problemi di licenza o abbonamento
 
-Puoi visualizzare i problemi relativi a licenze e abbonamenti che devono essere risolti.  I problemi riguardano licenze e abbonamenti in scadenza o che stanno raggiungendo la capacità massima.
+Nella dashboard Panoramica, è possibile visualizzare i problemi relativi a licenze e abbonamenti che necessitano di essere risolti. Tra questi rientrano le licenze e gli abbonamenti in scadenza o che hanno raggiunto la capacità massima.
 
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Selezionare *Panoramica*.
-. Selezionare *Risolvi* per il riquadro *Richiede azione* per visualizzare i problemi che devono essere risolti.  Se *Risolvi* non viene visualizzato, al momento non ci sono problemi che richiedono un intervento.
+. Nel riquadro *Richiede intervento*, seleziona *Risolvi* per visualizzare i problemi che necessitano di una modifica. Se *Risolvi* non viene visualizzato, non ci sono problemi che richiedono intervento.
 . Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.
 . Utilizzare il menu azioni per risolvere il problema.
 +

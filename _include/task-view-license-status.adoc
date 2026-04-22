@@ -6,5 +6,5 @@ Per gestire le licenze, è possibile raggrupparle in base al nome del servizio. 
 
 .Passi
 . Dal menu Console, selezionare *Amministrazione* > * Licenses and subscriptions*, quindi selezionare la scheda *Licenze dirette*.
-. Fare clic sulla riga del nome del servizio per espanderla.  Vengono visualizzate tutte le licenze relative a quel servizio.  Ogni riga espansa visualizza informazioni dettagliate sulle licenze, tra cui ID licenza, numero di serie, capacità e data di scadenza.
+. Seleziona la riga corrispondente al nome di un servizio per espanderla. Verranno visualizzate tutte le licenze relative a tale servizio. Ogni riga espansa mostra informazioni dettagliate sulle licenze, tra cui ID licenza, numero di serie, capacità e data di scadenza.
 

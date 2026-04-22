@@ -38,7 +38,7 @@ Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare al
 
 ====
 .Passi
-. Fai clic sul collegamento di attivazione dell'offerta privata del tuo team di vendita NetApp . Il collegamento dovrebbe essere simile al seguente:
+. Seleziona il link di attivazione dell'offerta privata dal tuo team di vendita NetApp. Il link dovrebbe essere simile al seguente:
 `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
 +
  If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
@@ -81,16 +81,16 @@ Per le offerte contrattuali, inserire il numero di unità concordate. Per Cloud 
 ====
 . Per accettare l'offerta privata, procedi come segue:
 +
-.. Per l'utilizzo on-demand, clicca su *Iscriviti*.
-.. Per le offerte contrattuali, inserisci il numero di unità per ciascun servizio e clicca su *Crea contratto*.
+.. Per l'utilizzo su richiesta, selezionare *Subscribe*.
+.. Per le offerte contrattuali, inserisci il numero di unità per ciascun servizio e seleziona *Crea contratto*.
 
 
 . Dopo l'accettazione, un banner conferma l'iscrizione e fornisce le istruzioni per la registrazione.
-. Fai clic su *Configura il tuo account*. Verrà reindirizzato alla NetApp Console per configurare l'abbonamento.
+. Seleziona *Configura il tuo account*. Verrai reindirizzato alla NetApp Console per configurare l'abbonamento.
 +
 [NOTE]
 ====
-Se hai accettato l'offerta ma non hai completato la registrazione, torna alla pagina del prodotto. Per visualizzare l'elenco dei contratti, fare clic su *Visualizza opzioni di acquisto* per visualizzare l'offerta, quindi selezionare *Configura il tuo account*.
+Se hai accettato l'offerta ma non hai completato la registrazione, torna alla pagina del prodotto. Per gli annunci con contratto, seleziona *Visualizza opzioni di acquisto* per visualizzare l'offerta, quindi seleziona *Configura il tuo account*.
 
 ====
 . Sign in su  https://console.netapp.com[].
@@ -110,8 +110,8 @@ Se hai accettato l'offerta ma non hai completato la registrazione, torna alla pa
 ====
 
 
-. Fare clic su **Associa**.
-. Compila il modulo per associare l'abbonamento alla tua organizzazione Console.  Quindi, fare clic su **Associa**.
+. Seleziona **Associa**.
+. Completa il modulo per associare l'abbonamento alla tua organizzazione Console. Seleziona **Associa**.
 . Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.

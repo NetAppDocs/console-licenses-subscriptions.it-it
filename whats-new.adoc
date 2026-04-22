@@ -210,9 +210,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Capacità consumata
 
-Ora ti mostra la capacità totale consumata nel tuo account e la capacità consumata per pacchetto di licenza. Questo può aiutarti a capire come ti vengono addebitati i costi e se devi acquistare capacità aggiuntiva.
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Uno screenshot che mostra la pagina per le licenze basate sulla capacità. La pagina fornisce una panoramica della capacità consumata nel tuo account e poi suddivide la capacità consumata in base al pacchetto di licenza."]
+Digital Wallet ora mostra la capacità totale consumata nel tuo account e la capacità consumata per pacchetto di licenza. Questo può aiutarti a capire come ti vengono addebitati i costi e se è necessario acquistare capacità aggiuntiva.
 
 
 
