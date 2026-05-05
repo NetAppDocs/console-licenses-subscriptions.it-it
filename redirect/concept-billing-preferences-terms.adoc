@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-billing-preferences-terms.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le licenze NetApp Console , gli abbonamenti NetApp Marketplace e NetApp Keystone. 
+summary: Licenses and subscriptions consente di gestire e monitorare le licenze della NetApp Console, gli abbonamenti NetApp marketplace e NetApp Keystone. 
 ---
 = Termini e definizioni
 :hardbreaks:
@@ -20,7 +20,7 @@ Le preferenze di fatturazione controllano il modo in cui NetApp Console gestisce
 * *Per abbonamento* — si applica solo a un marketplace specifico o a un contratto di licenza diretta.
 
 
-La fonte di fatturazione può essere la seguente:
+Le fonti di fatturazione possono essere:
 
 * *Abbonamenti Marketplace* — La fatturazione avviene tramite AWS Marketplace, Azure Marketplace o Google Cloud Marketplace.  Puoi scegliere l'account di fatturazione, la regione e le opzioni di rinnovo fornite dal cloud marketplace.
 * *Licenze dirette* — La fatturazione avviene tramite NetApp.  Nella NetApp Console puoi gestire le chiavi di licenza, i contatti per le fatture e il rinnovo automatico.
@@ -75,4 +75,18 @@ Le preferenze di fatturazione consentono di: - applicare un unico elenco di cont
 
 == Percorsi di configurazione tipici
 
-| Scenario | Opzione di fatturazione consigliata | |-----------|-----------------------------| | Utilizzo della capacità acquistata NetApp | Prima le licenze NetApp | | Utilizzo solo di contratti del marketplace | Solo abbonamenti del marketplace | | Fatturazione di più progetti con un unico cloud provider | Abilita configurazione CVO personalizzata | | Ripristino della fatturazione predefinita | Disabilita configurazione CVO personalizzata |
+|===
+| Scenario | Opzione di fatturazione consigliata |  
+
+
+| Utilizzo della capacità NetApp acquistata | Prima le licenze NetApp |  
+
+
+| Utilizzando esclusivamente contratti di marketplace | Solo abbonamenti al Marketplace |  
+
+
+| Fatturazione di più progetti sotto un unico cloud provider | Abilita la configurazione CVO personalizzata |  
+
+
+| Ripristino della fatturazione predefinita | Disabilita la configurazione CVO personalizzata |  
+|===

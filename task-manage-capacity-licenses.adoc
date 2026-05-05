@@ -4,7 +4,7 @@ permalink: task-manage-capacity-licenses.html
 keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: Gestisci le tue licenze basate sulla capacità dalla Console per assicurarti che il tuo account NetApp disponga di capacità sufficiente per i tuoi sistemi Cloud Volumes ONTAP . 
 ---
-= Gestisci le licenze Cloud Volume ONTAP basate sulla capacità
+= Gestisci le licenze Cloud Volumes ONTAP basate sulla capacità
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

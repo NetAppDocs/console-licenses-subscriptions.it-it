@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="f272914b94d98181b4b5b5374a222ace" category="paragraph">Le informazioni sulla licenza vengono visualizzate automaticamente nella sezione ** Licenses and subscriptions** quando l'account NetApp Console associato alla licenza è anche un account NetApp Support Site e dispone di accesso a Internet.  Se hai utilizzato un account Console non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.</block>
   <block id="32ba7365dfc460f8c57339fc1c2a9f76" category="paragraph">È possibile aggiungere la licenza nella Console immettendo il numero di serie e l'account NSS associato oppure caricando il file di licenza NetApp (NLF).  Se la Console non ha accesso a Internet (installazioni in modalità privata), è necessario procurarsi un file di licenza NetApp da caricare.</block>
   <block id="7e803dfc4831e069b5856fd52cb537ed" category="paragraph">Dopo aver acquistato una licenza dal tuo rappresentante commerciale NetApp , NetApp ti invierà un'e-mail con il numero di serie e ulteriori dettagli sulla licenza.  Il numero di serie ti servirà per aggiungere o aggiornare la rispettiva licenza nella Console.</block>
   <block id="64c3bf191a7a3aa11f89d25d0284c2a4" category="inline-link">aggiungi il tuo account del sito di supporto NetApp alla console</block>
@@ -17,8 +16,6 @@
   <block id="50affd6ad4d0230c729736816aaa8a7f" category="paragraph">Se la Console non ha accesso a Internet (installazioni in modalità privata), è necessario procurarsi un file di licenza NetApp da caricare.</block>
   <block id="57722f38f0769837013f699d7a50ea2f" category="paragraph">Quando acquisti una licenza da un rappresentante commerciale NetApp , ricevi un'e-mail contenente il numero di serie e i dettagli della licenza.  Utilizzare il numero di serie per ottenere il file di licenza se le licenze non vengono visualizzate automaticamente nella Console.</block>
   <block id="01b303f7b3ef03f12696877f4c3e3aa7" category="list-text">Trova l'ID del tuo account Console:</block>
-  <block id="3a22d72e96eaed671b6481401ea5678f" category="inline-image-macro">L'icona delle impostazioni visualizzata in alto a destra della console web.</block>
-  <block id="fe492bd792914d6a6a736f1771046149" category="list-text">Nell'angolo in alto a destra della Console, seleziona<block ref="598b4690da54e99b9c3d3ed3a0e90044" category="inline-image-macro-rx" type="image"></block> &gt; *Gestione identità e accessi*.</block>
   <block id="3bcef3f6238058ae825d608e1557c538" category="list-text">Nella pagina Organizzazione, cerca l'ID del tuo account e copialo.</block>
   <block id="4eab72b3176dbce57d106f22b3eae44a" category="paragraph">Se non è elencato alcun ID account e hai solo un ID organizzazione, copia i primi otto caratteri dell'ID organizzazione e aggiungili a *account-*</block>
   <block id="73d422631f1acfc181e143e47ab93172" category="paragraph">Ad esempio, se questo è l'ID della tua organizzazione:</block>
@@ -76,8 +73,6 @@
   <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">Il BlueXP digital wallet ora ti consente di configurare i tuoi abbonamenti in base alle credenziali del provider.  Solitamente questa operazione viene eseguita quando si sottoscrive per la prima volta un abbonamento Marketplace o un contratto annuale.  In precedenza la modifica delle credenziali dell'abbonamento poteva essere effettuata solo nella pagina Credenziali.</block>
   <block id="175fca0ca5f306258c490378dc2367db" category="section-title">Associazione degli abbonamenti alle organizzazioni</block>
   <block id="a5f7678a307b711643d239d80564147c" category="paragraph">Ora puoi aggiornare l'organizzazione a cui è associato un abbonamento direttamente dal portafoglio digitale.</block>
-  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Gestione delle licenze Cloud Volume ONTAP</block>
-  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">Ora puoi gestire le licenze Cloud Volumes ONTAP tramite la home page o la scheda *Licenze dirette*.  Utilizza la scheda *Abbonamenti Marketplace* per visualizzare le informazioni sul tuo abbonamento.</block>
   <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">Possibilità di rimuovere gli abbonamenti</block>
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">Ora puoi rimuovere gli abbonamenti dal portafoglio digitale se li hai annullati.</block>
   <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">Visualizza la capacità consumata per gli abbonamenti Marketplace</block>
@@ -214,14 +209,12 @@
   <block id="0413b8d744f898335195f39542d7ebc0" category="list-text">Personalizza le colonne mostrate nella tabella.  È possibile aggiungere e rimuovere colonne dalla tabella selezionando l'icona *Colonna* per indicare quali colonne si desidera mostrare o nascondere.</block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">Espandi una riga qualsiasi per visualizzare i dettagli relativi a ciò che è incluso nell'abbonamento o nella licenza, alla capacità acquistata e ai termini.</block>
   <block id="9243d7dd2d44fbffa034fd50ceb6daeb" category="list-text">Utilizzare il menu azioni per gestire una licenza o un abbonamento specifico, ad esempio per aggiornare una licenza o associare un abbonamento a un'organizzazione diversa.</block>
-  <block id="50d836849f90d9b3c57e6f88060c361e" category="paragraph">Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Panoramica* per un servizio specifico.  È possibile aggiungere licenze o abbonamenti solo dalla scheda *Licenze dirette* o dalla scheda *Abbonamenti Marketplace*, rispettivamente.</block>
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">Scopri di più sulla gestione delle licenze.</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">Scopri di più sulla gestione degli abbonamenti.</block>
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Risolvere problemi di licenza o abbonamento</block>
   <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.</block>
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">Utilizzare il menu azioni per risolvere il problema.</block>
   <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">Gestisci le tue licenze basate sulla capacità dalla Console per assicurarti che il tuo account NetApp disponga di capacità sufficiente per i tuoi sistemi Cloud Volumes ONTAP .</block>
-  <block id="43c4357f2e2861af46d95bae9c7873e1" category="doc">Gestisci le licenze Cloud Volume ONTAP basate sulla capacità</block>
   <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">Gestisci le tue licenze basate sulla capacità dalla NetApp Console per assicurarti che il tuo account NetApp disponga di capacità sufficiente per i tuoi sistemi Cloud Volumes ONTAP .</block>
   <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">Le _licenze basate sulla capacità_ consentono di pagare Cloud Volumes ONTAP per TiB di capacità.</block>
   <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">È possibile gestire le licenze Cloud Volumes ONTAP basate sulla capacità dalla NetApp Console.</block>
@@ -311,9 +304,7 @@
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">Selezionare *Report di utilizzo*.</block>
   <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">Il report di utilizzo viene scaricato.</block>
   <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">Aprire il file scaricato per accedere ai report.</block>
-  <block id="99368e41fe86f03ceb9c0b049772ef29" category="summary">Gestisci le licenze acquistate direttamente da NetApp (BYOL) per l'utilizzo con i servizi dati NetApp .  Puoi visualizzare la capacità della licenza utilizzata, la capacità libera rimanente e riceverai notifiche se hai raggiunto il limite di capacità o la data di scadenza.</block>
   <block id="0b8de14fb3434085b0be4b2778f365e0" category="doc">Gestisci le licenze per i servizi dati NetApp</block>
-  <block id="655a48b4a07bad11b97ddb1f7de8b150" category="paragraph">Puoi gestire le licenze acquistate direttamente da NetApp (BYOL) per utilizzarle con i servizi dati NetApp , tra cui Cloud Volumes ONTAP.  Puoi visualizzare la capacità della licenza utilizzata, la capacità libera rimanente e riceverai notifiche quando raggiungerai il limite di capacità o la data di scadenza.</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">Scopri di più sulla dashboard Panoramica</block>
   <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">Nella pagina *Licenze dirette* sono elencate tutte le licenze.  Per ottenere i dettagli della licenza per un servizio dati specifico, utilizzare i riquadri del servizio dati nella dashboard *Panoramica*. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">Le istruzioni presenti in questa pagina forniscono informazioni valide per ciascun servizio.  Per informazioni più specifiche sulle licenze per questi servizi, fare riferimento alle seguenti pagine:</block>
@@ -437,10 +428,7 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">Link correlati</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">Fine della disponibilità delle licenze basate sui nodi</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">Convertire le licenze basate sui nodi in licenze basate sulla capacità</block>
-  <block id="cb90b48918ed9cd8ea355c04c171177b" category="paragraph">collegamento:<block ref="7f9a8649ca2d86db235ba56502d14f92" category="inline-link-macro-rx"></block> <block ref="431f655d5a9ac309b561fc62a4c619ea" category="inline-link-macro-rx"></block></block>
-  <block id="8d90649cbc48862e96a3f1f139e803fa" category="summary">Visualizza i dettagli del contratto per ciascuno dei tuoi cluster ONTAP locali.  Se non hai ancora individuato un cluster nella Console, puoi farlo anche tu.</block>
   <block id="7b157739a85d3d5c67c903118518835e" category="doc">Gestisci le licenze per ONTAP on -premise</block>
-  <block id="712aeceaab91f33fd5739a8bbd6738fd" category="paragraph">È possibile visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP locali nella Console.  Se non hai ancora scoperto un cluster, puoi comunque scoprirli.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Prima di iniziare</block>
   <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">La Console visualizza i dettagli sui cluster ONTAP locali che hai scoperto come sistemi o che sono associati a un account del sito di supporto NetApp che hai aggiunto alla Console.</block>
   <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">Scopri come scoprire un cluster ONTAP on-premise</block>
@@ -478,7 +466,6 @@
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validazione delle autorizzazioni dell'acquirente</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.</block>
-  <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare alcuni passaggi potrebbe causare errori di fatturazione. Accettare e attivare l'offerta più volte comporta un doppio addebito.</block>
   <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">Utilizzo di policy gestite da AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* o *AWSMarketplaceFullAccess*</block>
   <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">Utilizzo di policy IAM personalizzate:<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> E<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
   <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">Verrai reindirizzato ad AWS Marketplace per visualizzare l'offerta privata.</block>
@@ -514,7 +501,6 @@
   <block id="e52dafa1a46b15a6c93d8cc9b48c0590" category="paragraph">Una sottoscrizione di Azure può essere associata a una sola sottoscrizione di Marketplace. Se si desidera utilizzare due diverse sottoscrizioni Marketplace per i carichi di lavoro nella stessa sottoscrizione di Azure, è necessario creare due account Console separati, uno per ciascuna sottoscrizione.  Se disponi di più istanze Cloud Volumes ONTAP e desideri suddividere la fatturazione tra diversi abbonamenti, crea account Console separati per ciascun abbonamento.</block>
   <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">Devi completare tutti i passaggi per accettare e attivare la tua offerta privata. Saltare alcuni passaggi potrebbe causare problemi di attivazione o una doppia ricarica.</block>
   <block id="5b91f544615def8157e9739a509448c2" category="paragraph">Se noti delle discrepanze nei termini, nei prezzi o nei dettagli dell'offerta, oppure se non sei sicuro di quale offerta accettare, non accettarla. Contatta il team di vendita NetApp .</block>
-  <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">Accettare e attivare l'offerta più volte comporta un doppio addebito.</block>
   <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Cerca o seleziona *Marketplace* dai servizi di Azure.</block>
   <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">Verificare che i *dettagli del piano*, la *durata* e i *prezzi* siano corretti.</block>
   <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">Se i dati non sono corretti, non iscriverti. Contatta il team di vendita NetApp per correggere l'offerta.</block>
@@ -604,24 +590,16 @@
   <block id="ca35b157a89bbc8ba6a6d0d4692fe2fb" category="paragraph">È possibile limitare l'utilizzo dell'abbonamento a un'organizzazione specifica oppure condividerlo tra più organizzazioni.</block>
   <block id="bda5c6e4132d7f1bfcaa387aa9bcb6ec" category="paragraph">Per associare un abbonamento a un'organizzazione, è necessario disporre del ruolo di amministratore dell'organizzazione.</block>
   <block id="c53adc94271638b800aab67861b845fc" category="admonition">La console supporta Identity and Access Management (IAM) in modalità standard, che utilizza le organizzazioni per gestire utenti e risorse.  Se utilizzi la Console in modalità privata o limitata, puoi utilizzare un _account_ Console per gestire utenti e risorse, compresi gli abbonamenti.</block>
-  <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">Nella finestra di dialogo *Associa l'abbonamento*, seleziona una o più organizzazioni da associare all'abbonamento.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Seleziona *Associa*.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">Visualizza le credenziali associate a un abbonamento</block>
   <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">È possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Abbonamenti Marketplace*.  Ciò consente di verificare come viene fatturato l'abbonamento.  Poiché le credenziali sono collegate all'agente utilizzato, è necessario selezionare l'agente associato all'abbonamento che si desidera visualizzare.</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">Per cambiare agente, se necessario, utilizzare il menu a discesa Agente nella barra di navigazione in alto.</block>
-  <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">Nella riga contenente l'abbonamento di cui desideri visualizzare le credenziali, seleziona Visualizza.  Se a un abbonamento sono associate più credenziali, è possibile che non ne venga visualizzata alcuna e si verrà indirizzati a selezionare un agente diverso.</block>
   <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">Annullare la configurazione di un abbonamento</block>
   <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa operazione cancella tutti i dati e le impostazioni associati.</block>
   <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">Seguire le istruzioni per rimuovere o reimpostare eventuali impostazioni o dati associati.</block>
   <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">Attendi che lo stato venga aggiornato in *Non configurato*.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">Rimuovere un abbonamento</block>
-  <block id="78fa7824e76cd8274cf9d050c0ce8cc1" category="paragraph">Quando annulli un abbonamento nel tuo provider cloud (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Annullato*.</block>
-  <block id="cd8d98e20f3508cb708db6a30ce5c9dc" category="paragraph">È possibile rimuovere gli abbonamenti *Non sottoscritti* dalla Console in modo che non vengano più visualizzati.</block>
-  <block id="091ca7aa552eef4b6b760ed64babc1bc" category="paragraph">È possibile rimuovere solo gli abbonamenti che sono sia *Non iscritti* che *Non configurati*.  Prima della rimozione, è necessario cancellare o ripristinare tutte le impostazioni, i dati e la configurazione correlati.</block>
-  <block id="1cdf55c4f07b4e6c150fa4314c119aa5" category="paragraph">Se l'abbonamento è ancora configurato, l'opzione *Rimuovi* non viene visualizzata.  Per rendere disponibile l'opzione, deconfigurare l'abbonamento cancellando tutte le impostazioni, i servizi o i dati associati.</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">Nella riga relativa all'abbonamento che desideri rimuovere, apri il menu azioni e seleziona *Rimuovi*.</block>
-  <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">È possibile rimuovere solo gli abbonamenti con stato *Non iscritto* e *Non configurato*.</block>
-  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">Nella finestra di dialogo *Rimuovi abbonamento*, conferma che desideri rimuovere l'abbonamento.</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">Prima di poter aprire un caso di supporto con il supporto tecnico NetApp , è necessario aggiungere un account NetApp Support Site alla NetApp Console e quindi registrarsi per ricevere supporto.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registrati per ricevere supporto</block>
   <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">Per ricevere supporto tecnico specifico per NetApp Console e le sue soluzioni di storage e servizi dati è necessaria la registrazione al supporto. La registrazione del supporto è inoltre richiesta per abilitare i flussi di lavoro chiave per i sistemi Cloud Volumes ONTAP .</block>
@@ -760,12 +738,10 @@
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Gestisci gli abbonamenti al Marketplace</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gestisci le preferenze di fatturazione</block>
-  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console.  Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Documentazione sulle preferenze di fatturazione</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">Le preferenze di fatturazione controllano il modo in cui NetApp Console gestisce i pagamenti, le fatture e il comportamento di rinnovo per le tue licenze e i tuoi abbonamenti.  È possibile impostare le preferenze a uno dei due livelli:</block>
   <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*Globale*: si applica a licenze dirette, abbonamenti al marketplace e abbonamenti Keystone .</block>
   <block id="0d92132a500b2b420133d918adb91673" category="list-text">*Per abbonamento* — si applica solo a un marketplace specifico o a un contratto di licenza diretta.</block>
-  <block id="65a359771032279b1dc8643b4bd87e87" category="paragraph">La fonte di fatturazione può essere la seguente:</block>
   <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*Abbonamenti Marketplace* — La fatturazione avviene tramite AWS Marketplace, Azure Marketplace o Google Cloud Marketplace.  Puoi scegliere l'account di fatturazione, la regione e le opzioni di rinnovo fornite dal cloud marketplace.</block>
   <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*Licenze dirette* — La fatturazione avviene tramite NetApp.  Nella NetApp Console puoi gestire le chiavi di licenza, i contatti per le fatture e il rinnovo automatico.</block>
   <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">* Abbonamenti Keystone * — La fatturazione avviene tramite il contratto Keystone .  Nella NetApp Console puoi gestire i destinatari delle fatture e i tag dei centri di costo.</block>
@@ -842,12 +818,10 @@
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">Apri *Preferenze di fatturazione*.</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Disabilita *Configurazione CVO personalizzata*.</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">Quando richiesto, conferma che desideri ripristinare la configurazione standard.</block>
-  <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.</block>
   <block id="c405cb4ee0a4475b96f30fb0962daa3e" category="list-text">Esamina le opzioni di abbonamento al marketplace.</block>
   <block id="c0ab08cc5546a8c99ef8010e4cb766a0" category="list-text">Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">Scopri di più sulle preferenze di fatturazione</block>
-  <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">Dal menu NetApp Console , selezionare *Amministrazione &gt; Licenses and subscriptions*, quindi selezionare la scheda *Licenze dirette*.</block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">Dal menu NetApp Console , selezionare *Amministrazione &gt; Licenses and subscriptions*.</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">Nella NetApp Console, seleziona *Amministrazione &gt; Licenses and subscriptions*.</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*Progetto Cloud*</block>
@@ -892,7 +866,6 @@
   <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**Licenza diretta** — licenza gestita da NetApp utilizzata prima della capacità del marketplace.</block>
   <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**Hyperscaler** — AWS, Azure o cloud provider Google.</block>
   <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**Finestra di dialogo Conferma modifiche** — Appare prima dell'applicazione degli aggiornamenti per evitare modifiche accidentali alla fatturazione.</block>
-  <block id="3b2f681409f2a10e7041cea70815ccde" category="paragraph">| Scenario | Opzione di fatturazione consigliata | |-----------|-----------------------------| | Utilizzo della capacità acquistata NetApp | Prima le licenze NetApp | | Utilizzo solo di contratti del marketplace | Solo abbonamenti del marketplace | | Fatturazione di più progetti con un unico cloud provider | Abilita configurazione CVO personalizzata | | Ripristino della fatturazione predefinita | Disabilita configurazione CVO personalizzata |</block>
   <block id="1f53fda1033a98943930c3ec2b8523bf" category="list-text">Gli abbonamenti al marketplace corrispondono ai contratti del marketplace cloud (AWS, Azure o Google Cloud) in cui i costi di utilizzo vengono addebitati tramite un cloud provider account</block>
   <block id="f0d4e9a62cff20e37439e08114cc3a6e" category="list-text">Abilita la mappatura avanzata delle istanze Cloud Volumes ONTAP agli abbonamenti del marketplace</block>
   <block id="fc8cec049cd357fc6adde025d9d97c4d" category="list-text">*Custom Cloud Volumes ONTAP configuration* — Consente di associare più abbonamenti del marketplace a un cloud provider. Ciò può essere utile quando diverse unità aziendali o progetti richiedono account di fatturazione distinti all'interno dello stesso ambiente cloud.</block>
@@ -918,7 +891,6 @@
   <block id="5792b2f64acac4a03d52863e503bb06e" category="list-text"><block ref="5792b2f64acac4a03d52863e503bb06e" category="inline-link-rx"></block></block>
   <block id="df8952271e7ef38725532907301bdd0b" category="list-text"><block ref="df8952271e7ef38725532907301bdd0b" category="inline-link-rx"></block></block>
   <block id="691e9010d46bcb06693d90df5c955334" category="paragraph">Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia HA è illimitato.</block>
-  <block id="eab5a9beec18731066e3d914b1b777d6" category="list-text">Ripeti questi passaggi se necessario, se ci sono più abbonamenti su più cloud provider.</block>
   <block id="bd4fe280572cb5715cd19a1acca358c1" category="list-text">Questa opzione di sostituzione è limitata a una singola organizzazione Console.</block>
   <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
@@ -937,7 +909,6 @@
   <block id="933ff4ba5601cbcc7feb8a2d4fb2a9bf" category="paragraph">Ad esempio, le preferenze di fatturazione globali possono unificare l'elenco dei contatti per la fatturazione, in modo che tutti i servizi condividano un unico amministratore di fatturazione. È inoltre possibile utilizzare i tag dei centri di costo per allineare l'utilizzo tra reparti o regioni e abilitare il rinnovo automatico per evitare interruzioni del servizio. Le nuove implementazioni di Cloud Volumes ONTAP ereditano automaticamente la modalità di fatturazione definita qui, mantenendo il modello di chargeback dell'organizzazione coerente con l'aggiunta di nuovi sistemi.</block>
   <block id="54fcef087d6b48c92dbbb8ac72f593c0" category="paragraph">I campi Marketplace descrivono i contratti che hanno origine da un cloud provider come AWS, Azure o Google Cloud. Questi campi definiscono come NetApp Console collega i tuoi abbonamenti alle informazioni di fatturazione memorizzate nel marketplace del provider. Controllano inoltre come vengono gestiti i rinnovi, le assegnazioni regionali e gli account di fatturazione.</block>
   <block id="e5081b7905ad864689ed6d79eec0b12c" category="paragraph">Puoi scegliere tra diverse modalità di fatturazione a seconda della strategia di approvvigionamento della tua organizzazione:</block>
-  <block id="595cce1a707876efb5af81547b8c45f7" category="paragraph">La dashboard *Panoramica* nella Console ti aiuta a monitorare lo stato delle tue licenze e abbonamenti per assicurarti di poter gestire i costi e mantenere il servizio attivo man mano che gli abbonamenti si avvicinano alle date di scadenza o ai limiti di capacità.</block>
   <block id="f219c0a9bbd89956963c78f2767baad1" category="paragraph">È possibile visualizzare informazioni specifiche su licenze e abbonamenti per ciascuno dei servizi dati (inclusi Cloud Volumes ONTAP).</block>
   <block id="48b78d4263fb260e1302eea43ab97297" category="paragraph">La dashboard Licenses and subscriptions ti avvisa dei limiti di capacità imminenti o delle scadenze, invitandoti ad adottare le misure necessarie.</block>
   <block id="ebd121972998fd8daff69f97ab69a917" category="paragraph">La dashboard *Panoramica* fornisce dettagli sui seguenti servizi:</block>
@@ -945,12 +916,10 @@
   <block id="b47325596a22c5a8ba674a9a5e213d83" category="list-text">Nel riquadro *Richiede intervento*, seleziona *Risolvi* per visualizzare i problemi che necessitano di una modifica. Se *Risolvi* non viene visualizzato, non ci sono problemi che richiedono intervento.</block>
   <block id="56ed7edfc768b93b25480e9f92ff2bcc" category="paragraph">È possibile configurare e gestire le preferenze di fatturazione nella NetApp Console per controllare come l'utilizzo della capacità, i rinnovi e le fatture vengono applicati agli account dell'organizzazione. Le preferenze di fatturazione determinano se gli addebiti per l'utilizzo derivano da NetApp licenses, contratti del cloud marketplace o accordi Keystone.</block>
   <block id="c59e51e49c60bf63e80dd12445ef4455" category="admonition">La modifica della modalità di fatturazione ridistribuisce il modo in cui vengono applicati gli addebiti per i servizi. Le nuove istanze di Cloud Volumes ONTAP ereditano automaticamente la configurazione selezionata.</block>
-  <block id="1da8061e8298048c27ede43db8d41efb" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include::task-view-license-status.adoc[]</block>
   <block id="b3590df4b69c4ddf7017e6977baebe49" category="list-text">Per l'abbonamento che desideri collegare, seleziona <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e seleziona *Collega*.</block>
   <block id="665103db45058514d7e3b032c990783d" category="list-text">Per l'abbonamento di cui si desidera modificare la capacità, selezionare <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e scegliere *Visualizza dettagli e modifica*.</block>
   <block id="f638b98047aa1e2c9642d2de1bcdd0d0" category="list-text">Scorri verso il basso, inserisci eventuali dettagli aggiuntivi per la richiesta e poi seleziona *Invia*.</block>
   <block id="dc96e19fba7ac18b79e69398a4792825" category="list-text">Per l'abbonamento che desideri scollegare, seleziona <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e seleziona *Scollega*.</block>
-  <block id="1d64231f78e22c21d456a692b4cbdb65" category="list-text">Seleziona il link di attivazione dell'offerta privata dal tuo team di vendita NetApp. Il link dovrebbe essere simile al seguente:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
   <block id="31308c520ca0fc42a2dcafc9666c6d32" category="list-text">Per l'utilizzo su richiesta, selezionare *Subscribe*.</block>
   <block id="5b365cd4a0e598c771835c8d4ec04551" category="list-text">Per le offerte contrattuali, inserisci il numero di unità per ciascun servizio e seleziona *Crea contratto*.</block>
   <block id="0629896d92c6d3e12b70728fbefe3efb" category="list-text">Seleziona *Configura il tuo account*. Verrai reindirizzato alla NetApp Console per configurare l'abbonamento.</block>
@@ -973,4 +942,45 @@
   <block id="69c9db700e88e13fa6be2001b38dfd08" category="list-text">Nella riga relativa all'abbonamento che si desidera associare, aprire il menu delle azioni e selezionare *Associa*.</block>
   <block id="b3cdc96c2b7de37edaa1cdfe112925ae" category="list-text">Nella riga relativa all'abbonamento che si desidera disconfigurare, selezionare il menu Azioni e quindi *Disconfigura*.</block>
   <block id="b36ceccfff88f5d9c684c4fec0f54c19" category="paragraph">Digital Wallet ora mostra la capacità totale consumata nel tuo account e la capacità consumata per pacchetto di licenza. Questo può aiutarti a capire come ti vengono addebitati i costi e se è necessario acquistare capacità aggiuntiva.</block>
+  <block id="8af1ad3469dad38ef46da37595e3b758" category="inline-link-macro">Scopri i ruoli di Licenses and subscriptions per NetApp Console</block>
+  <block id="1ccb85040042290f711464fbb5e06609" category="paragraph">*Ruolo richiesto nella Console* Per eseguire questa attività, è necessario il ruolo di amministratore Licenses and subscriptions <block ref="f7bfd1d1e66654a9d76ee2fffeede42a" category="inline-link-macro-rx"></block>.</block>
+  <block id="458dbbe908598c035d40c809863c56e8" category="paragraph">Le informazioni sulla licenza vengono visualizzate automaticamente nella sezione **Licenses and subscriptions** se l'account NetApp Console associato alla licenza è anche un account NetApp Support Site. Se hai utilizzato un account Console non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.</block>
+  <block id="e8287c7448cfd8625359581b1cb6deb2" category="list-text">Seleziona la scheda *Licenze dirette*.</block>
+  <block id="9c3e0ea557f19f47fe25dfd585312f43" category="list-text">Nel menu di navigazione della Console, selezionare *Amministrazione* &gt; *Identità e accesso*.</block>
+  <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">Gestione delle licenze Cloud Volumes ONTAP</block>
+  <block id="9429e7a2e486548a79c3122d6c6e17e5" category="paragraph">Ora gestisci le licenze di Cloud Volumes ONTAP tramite la pagina iniziale o la scheda *Licenze dirette*. Utilizza la scheda *Abbonamenti al Marketplace* per visualizzare le informazioni sul tuo abbonamento.</block>
+  <block id="26d95a9677f28d9a6e340c69085c4cdb" category="paragraph">Ora è possibile configurare e gestire le *preferenze di fatturazione* direttamente all'interno della NetApp Console. Questo miglioramento consente agli amministratori di definire e visualizzare come vengono fatturati l'utilizzo della capacità, i rinnovi e i costi per le licenze NetApp dirette, gli abbonamenti al cloud marketplace e gli accordi Keystone.</block>
+  <block id="994c93e3e8dbb5133d0b3a075bdac953" category="summary">Licenses and subscriptions consente di gestire e monitorare le licenze della NetApp Console, gli abbonamenti NetApp marketplace e NetApp Keystone.</block>
+  <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">Le fonti di fatturazione possono essere:</block>
+  <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">Utilizzo della capacità NetApp acquistata</block>
+  <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">Prima le licenze NetApp</block>
+  <block id="2cd14b556325088d14b61eb426ad2d2a" category="cell">Utilizzando esclusivamente contratti di marketplace</block>
+  <block id="f34a8dd98169c2ffb5c475fca10bf726" category="cell">Solo abbonamenti al Marketplace</block>
+  <block id="cd9f8fe965cb669b5f7780d601f2a068" category="cell">Fatturazione di più progetti sotto un unico cloud provider</block>
+  <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">Abilita la configurazione CVO personalizzata</block>
+  <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">Ripristino della fatturazione predefinita</block>
+  <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">Disabilita la configurazione CVO personalizzata</block>
+  <block id="64b2682858b322421bcf1271f43d5958" category="summary">Visualizza i dettagli del contratto per ciascuno dei tuoi cluster ONTAP on-premises.</block>
+  <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">Nella NetApp Console puoi individuare un cluster ONTAP e visualizzare i dettagli del contratto per ciascun cluster ONTAP on-premises che hai individuato.</block>
+  <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">La dashboard *Panoramica* nella NetApp Console ti aiuta a monitorare lo stato delle tue licenze e abbonamenti per assicurarti di poter gestire i costi e mantenere il servizio attivo man mano che gli abbonamenti si avvicinano alle date di scadenza o ai limiti di capacità.</block>
+  <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Overview* di un servizio specifico. È possibile aggiungere licenze solo dalla scheda *Direct licenses* o abbonamenti dalla scheda *Marketplace subscriptions*.</block>
+  <block id="cd8b0613e16e6b474b0e97a2db9c08ee" category="doc">Gestisci le licenze Cloud Volumes ONTAP basate sulla capacità</block>
+  <block id="7a65ea1273f42ee6be596842e800d703" category="summary">Gestisci le licenze che hai acquistato direttamente da NetApp (BYOL) per l'utilizzo con i servizi dati NetApp. Puoi visualizzare la capacità di licenza utilizzata, l'utilizzo della capacità e le scadenze imminenti.</block>
+  <block id="bdcdbfa9e9107af10507b1ac43ba121f" category="paragraph">È possibile gestire le licenze acquistate direttamente da NetApp (BYOL) per l'utilizzo con i servizi dati NetApp, incluso Cloud Volumes ONTAP. È possibile visualizzare la capacità di licenza utilizzata, l'utilizzo della capacità e le scadenze imminenti.</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="5e5b6fbbd6a3b4edf3913541e4fecf17" category="list-text"><block ref="5e5b6fbbd6a3b4edf3913541e4fecf17" category="inline-link-rx"></block></block>
+  <block id="e99886a561ecbfcd7f4c44b5b12c8c64" category="admonition">È necessario completare tutti i passaggi per attivare l'offerta privata. Saltare dei passaggi potrebbe causare errori di fatturazione. Accettare e attivare l'offerta più volte potrebbe comportare un doppio addebito.</block>
+  <block id="b7ef3af051989ebe8c7a18646c2ca742" category="list-text">Seleziona il link di attivazione dell'offerta privata dal tuo team di vendita NetApp.</block>
+  <block id="80eed28e388792630d573d307ce2976d" category="paragraph">Il link dovrebbe essere simile al seguente:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="eea302b35a259b47fb27d8229cf7ed76" category="paragraph">Se non hai ricevuto il link, visualizza le offerte private nella console di AWS Marketplace. Sono necessarie le seguenti autorizzazioni:</block>
+  <block id="7d6f61a54be5b706ac586f3cf874b554" category="list-text">Dopo aver associato l'abbonamento, seleziona la scheda **Preferenze di fatturazione**.</block>
+  <block id="c8420f29be12c698d2e9909d0dba37f2" category="list-text">Ripeti questi passaggi se necessario, se sono presenti più abbonamenti presso diversi cloud provider.</block>
+  <block id="e99d4b8260f7861bc82160afa31c13ae" category="paragraph">Accettare e attivare l'offerta più volte può comportare un doppio addebito.</block>
+  <block id="6568694a02e411d62f8f3005cb962b0f" category="paragraph">Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, consultare <block ref="f883f2f955e02dbe428878251b1a2bad" category="inline-link-macro-rx"></block>.</block>
+  <block id="c51b76251f739d026a73088b68f822cc" category="list-text">Nella finestra di dialogo *Associa l'abbonamento*, seleziona le organizzazioni della Console che desideri associare all'abbonamento.</block>
+  <block id="e1a9b86a11b8dc3ce019684338b03569" category="list-text">Nella riga contenente l'abbonamento di cui si desidera visualizzare le credenziali, selezionare *Visualizza*. Se a un abbonamento sono associate più credenziali, potrebbe non essere visualizzata alcuna credenziale e si viene indirizzati a selezionare un agente diverso.</block>
+  <block id="54a21b5d0aef1783b6a04fe3d5b2a57b" category="paragraph">Quando annulli un abbonamento presso il tuo cloud provider (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Unsubscribed*. Dopo aver annullato un abbonamento, puoi anche rimuoverlo da Licenses and subscriptions.</block>
+  <block id="9475bf1acf4a7e43280f6718d685e866" category="list-text">È possibile rimuovere solo gli abbonamenti con stato *Unsubscribed*. Tutte le impostazioni, i dati e la configurazione correlati devono essere cancellati o ripristinati prima della rimozione.</block>
+  <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">Se l'abbonamento è ancora configurato, l'opzione *Remove* non è disponibile.</block>
+  <block id="792b1ad41ebb8947d008af5826897289" category="list-text">Nella finestra di dialogo *Rimuovi abbonamento*, seleziona *Rimuovi* per confermare che desideri rimuovere l'abbonamento.</block>
 </blocks>

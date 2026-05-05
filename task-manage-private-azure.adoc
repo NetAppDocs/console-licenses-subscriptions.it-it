@@ -44,7 +44,7 @@ Devi completare tutti i passaggi per accettare e attivare la tua offerta privata
 
 Se noti delle discrepanze nei termini, nei prezzi o nei dettagli dell'offerta, oppure se non sei sicuro di quale offerta accettare, non accettarla. Contatta il team di vendita NetApp .
 
-Accettare e attivare l'offerta più volte comporta un doppio addebito.
+Accettare e attivare l'offerta più volte può comportare un doppio addebito.
 
 ====
 .Passi
@@ -99,11 +99,11 @@ L'automazione lato Azure può richiedere dai 30 secondi ai 5 minuti per essere c
 
 . Seleziona **Associa**.
 . Completa il modulo per associare l'abbonamento alla tua organizzazione Console. Seleziona **Associa**.
-. Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
+. Dopo aver associato l'abbonamento, seleziona la scheda **Preferenze di fatturazione**.
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
 . Seleziona **Salva modifiche**.
-. Ripeti questi passaggi se necessario, se ci sono più abbonamenti su più cloud provider.
+. Ripeti questi passaggi se necessario, se sono presenti più abbonamenti presso diversi cloud provider.
 
 
-Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].
+Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, consultare link:concept-billing-preferences.html["Scopri di più sulle preferenze di fatturazione per licenze e abbonamenti"].

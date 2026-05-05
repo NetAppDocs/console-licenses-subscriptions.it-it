@@ -133,7 +133,7 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga relativa all'abbonamento che si desidera associare, aprire il menu delle azioni e selezionare *Associa*.
-. Nella finestra di dialogo *Associa l'abbonamento*, seleziona una o più organizzazioni da associare all'abbonamento.
+. Nella finestra di dialogo *Associa l'abbonamento*, seleziona le organizzazioni della Console che desideri associare all'abbonamento.
 . Seleziona *Associa*.
 
 
@@ -149,7 +149,7 @@ NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente ne
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
-. Nella riga contenente l'abbonamento di cui desideri visualizzare le credenziali, seleziona Visualizza.  Se a un abbonamento sono associate più credenziali, è possibile che non ne venga visualizzata alcuna e si verrà indirizzati a selezionare un agente diverso.
+. Nella riga contenente l'abbonamento di cui si desidera visualizzare le credenziali, selezionare *Visualizza*. Se a un abbonamento sono associate più credenziali, potrebbe non essere visualizzata alcuna credenziale e si viene indirizzati a selezionare un agente diverso.
 
 
 
@@ -170,23 +170,18 @@ Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa o
 
 === Rimuovere un abbonamento
 
-Quando annulli un abbonamento nel tuo provider cloud (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Annullato*.
+Quando annulli un abbonamento presso il tuo cloud provider (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Unsubscribed*. Dopo aver annullato un abbonamento, puoi anche rimuoverlo da Licenses and subscriptions.
 
-È possibile rimuovere gli abbonamenti *Non sottoscritti* dalla Console in modo che non vengano più visualizzati.
+.Prima di iniziare
+* È possibile rimuovere solo gli abbonamenti con stato *Unsubscribed*. Tutte le impostazioni, i dati e la configurazione correlati devono essere cancellati o ripristinati prima della rimozione.
++
+Se l'abbonamento è ancora configurato, l'opzione *Remove* non è disponibile.
 
-[NOTE]
-====
-È possibile rimuovere solo gli abbonamenti che sono sia *Non iscritti* che *Non configurati*.  Prima della rimozione, è necessario cancellare o ripristinare tutte le impostazioni, i dati e la configurazione correlati.
 
-Se l'abbonamento è ancora configurato, l'opzione *Rimuovi* non viene visualizzata.  Per rendere disponibile l'opzione, deconfigurare l'abbonamento cancellando tutte le impostazioni, i servizi o i dati associati.
 
-====
 .Passi
 . Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga relativa all'abbonamento che desideri rimuovere, apri il menu azioni e seleziona *Rimuovi*.
-+
-È possibile rimuovere solo gli abbonamenti con stato *Non iscritto* e *Non configurato*.
-
-. Nella finestra di dialogo *Rimuovi abbonamento*, conferma che desideri rimuovere l'abbonamento.
+. Nella finestra di dialogo *Rimuovi abbonamento*, seleziona *Rimuovi* per confermare che desideri rimuovere l'abbonamento.
 

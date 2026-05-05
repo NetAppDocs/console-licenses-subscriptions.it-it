@@ -32,16 +32,17 @@ Accetta un'offerta privata di Marketplace per la NetApp Console nel portale AWS 
 
 Per attivare l'acquisto e applicare prezzi scontati è necessario completare l'assegnazione dell'abbonamento nella Console.
 
-[NOTE]
-====
-Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare alcuni passaggi potrebbe causare errori di fatturazione. Accettare e attivare l'offerta più volte comporta un doppio addebito.
 
-====
+NOTE: È necessario completare tutti i passaggi per attivare l'offerta privata. Saltare dei passaggi potrebbe causare errori di fatturazione. Accettare e attivare l'offerta più volte potrebbe comportare un doppio addebito.
+
 .Passi
-. Seleziona il link di attivazione dell'offerta privata dal tuo team di vendita NetApp. Il link dovrebbe essere simile al seguente:
-`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+. Seleziona il link di attivazione dell'offerta privata dal tuo team di vendita NetApp.
 +
- If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
+Il link dovrebbe essere simile al seguente: `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+
++
+Se non hai ricevuto il link, visualizza le offerte private nella console di AWS Marketplace. Sono necessarie le seguenti autorizzazioni:
+
 +
 ** Utilizzo di policy gestite da AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* o *AWSMarketplaceFullAccess*
 ** Utilizzo di policy IAM personalizzate: `aws-marketplace:ListPrivateListings` E `aws-marketplace:ViewSubscriptions`
@@ -49,11 +50,9 @@ Devi completare tutti i passaggi per attivare la tua offerta privata. Saltare al
 
 . Verrai reindirizzato ad AWS Marketplace per visualizzare l'offerta privata.
 +
-[NOTE]
-====
-Le offerte private vengono create in base agli annunci pubblici. Utilizzare il menu a discesa *Selezione offerta* per passare dalle offerte pubbliche a quelle private e viceversa.
 
-====
+NOTE: Le offerte private vengono create in base agli annunci pubblici. Utilizzare il menu a discesa *Selezione offerta* per passare dalle offerte pubbliche a quelle private e viceversa.
+
 . Esamina i dettagli dell'offerta privata e verifica che corrispondano al tuo accordo. Se sono errati, non accettarli. Contatta il team del tuo account NetApp .
 +
 [NOTE]
@@ -112,11 +111,11 @@ Se hai accettato l'offerta ma non hai completato la registrazione, torna alla pa
 
 . Seleziona **Associa**.
 . Completa il modulo per associare l'abbonamento alla tua organizzazione Console. Seleziona **Associa**.
-. Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
+. Dopo aver associato l'abbonamento, seleziona la scheda **Preferenze di fatturazione**.
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
 . Seleziona **Salva modifiche**.
-. Ripeti questi passaggi se necessario, se ci sono più abbonamenti su più cloud provider.
+. Ripeti questi passaggi se necessario, se sono presenti più abbonamenti presso diversi cloud provider.
 
 
 Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].

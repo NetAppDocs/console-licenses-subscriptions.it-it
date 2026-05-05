@@ -90,11 +90,11 @@ Esamina attentamente i dettagli del piano, la durata e i prezzi. Se qualcosa non
 
 . Seleziona **Associa**.
 . Completa il modulo per associare l'abbonamento alla tua organizzazione Console. Seleziona **Associa**.
-. Dopo aver associato l'abbonamento, naviga e seleziona la scheda **Preferenze di fatturazione**.
+. Dopo aver associato l'abbonamento, seleziona la scheda **Preferenze di fatturazione**.
 . Esamina le opzioni di abbonamento al marketplace.
 . Seleziona l'abbonamento al marketplace che desideri fatturare.  Questo vale solo quando c'è più di un'opzione.
 . Seleziona **Salva modifiche**.
-. Ripeti questi passaggi se necessario, se ci sono più abbonamenti su più cloud provider.
+. Ripeti questi passaggi se necessario, se sono presenti più abbonamenti presso diversi cloud provider.
 
 
 Per ulteriori informazioni sugli abbonamenti al marketplace e sulla fatturazione diretta delle licenze, vedere link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"].

@@ -13,7 +13,7 @@ summary: Ottieni una panoramica di tutti gli abbonamenti e le licenze per la tua
 == Utilizzare la panoramica della dashboard
 
 [role="lead"]
-La dashboard *Panoramica* nella Console ti aiuta a monitorare lo stato delle tue licenze e abbonamenti per assicurarti di poter gestire i costi e mantenere il servizio attivo man mano che gli abbonamenti si avvicinano alle date di scadenza o ai limiti di capacità.
+La dashboard *Panoramica* nella NetApp Console ti aiuta a monitorare lo stato delle tue licenze e abbonamenti per assicurarti di poter gestire i costi e mantenere il servizio attivo man mano che gli abbonamenti si avvicinano alle date di scadenza o ai limiti di capacità.
 
 È possibile visualizzare informazioni specifiche su licenze e abbonamenti per ciascuno dei servizi dati (inclusi Cloud Volumes ONTAP).
 
@@ -25,11 +25,11 @@ La dashboard Licenses and subscriptions ti avvisa dei limiti di capacità immine
 
 La dashboard *Panoramica* fornisce dettagli sui seguenti servizi:
 
+* Backup e ripristino
+* Cloud Tiering
 * Cloud Volumes ONTAP
 * Ripristino dopo un disastro
 * Resilienza al ransomware
-* Backup e ripristino
-* Cloud Tiering
 
 
 Ad esempio, gli amministratori incaricati della gestione delle risorse Cloud Volumes ONTAP possono visualizzare la capacità corrente di ogni licenza o abbonamento, ottenendo così una visione mirata delle risorse di loro competenza.
@@ -52,7 +52,7 @@ Ogni riquadro fornisce una panoramica grafica della capacità.  Puoi visualizzar
 . Espandi una riga qualsiasi per visualizzare i dettagli relativi a ciò che è incluso nell'abbonamento o nella licenza, alla capacità acquistata e ai termini.
 . Utilizzare il menu azioni per gestire una licenza o un abbonamento specifico, ad esempio per aggiornare una licenza o associare un abbonamento a un'organizzazione diversa.
 +
-Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Panoramica* per un servizio specifico.  È possibile aggiungere licenze o abbonamenti solo dalla scheda *Licenze dirette* o dalla scheda *Abbonamenti Marketplace*, rispettivamente.
+Non è possibile aggiungere nuove licenze o abbonamenti dalla pagina *Overview* di un servizio specifico. È possibile aggiungere licenze solo dalla scheda *Direct licenses* o abbonamenti dalla scheda *Marketplace subscriptions*.
 
 +
 link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze."] link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti."]
