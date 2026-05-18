@@ -23,6 +23,8 @@ Quando ti abboni ai servizi dati NetApp (incluso Cloud Volumes ONTAP) dal market
 
 NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Per i dettagli sulla licenza di un servizio dati specifico, utilizzare i riquadri del servizio dati nella dashboard *Panoramica*. link:task-homepage.html#overview-page["Scopri di più sulla dashboard Panoramica"] .
 
+*Ruolo richiesto nella Console* Per eseguire questa attività, è necessario il ruolo di amministratore Licenses and subscriptions link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Scopri i ruoli di Licenses and subscriptions per NetApp Console"^].
+
 
 
 == Aggiungi un nuovo abbonamento al marketplace
@@ -150,20 +152,6 @@ NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente ne
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
 . Seleziona *Abbonamenti Marketplace*.
 . Nella riga contenente l'abbonamento di cui si desidera visualizzare le credenziali, selezionare *Visualizza*. Se a un abbonamento sono associate più credenziali, potrebbe non essere visualizzata alcuna credenziale e si viene indirizzati a selezionare un agente diverso.
-
-
-
-
-=== Annullare la configurazione di un abbonamento
-
-Prima di poter rimuovere un abbonamento, è necessario deconfigurarlo.  Questa operazione cancella tutti i dati e le impostazioni associati.
-
-.Passi
-. Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
-. Nella riga relativa all'abbonamento che si desidera disconfigurare, selezionare il menu Azioni e quindi *Disconfigura*.
-. Seguire le istruzioni per rimuovere o reimpostare eventuali impostazioni o dati associati.
-. Attendi che lo stato venga aggiornato in *Non configurato*.
 
 
 

@@ -71,6 +71,8 @@ Nella dashboard Panoramica, è possibile visualizzare i problemi relativi a lice
 . Dalla pagina *Richiede azione*, seleziona la scheda *Licenze* o la scheda *Abbonamenti*.
 . Utilizzare il menu azioni per risolvere il problema.
 +
-link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"]. link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"].
+** link:task-manage-data-services-licenses.html["Scopri di più sulla gestione delle licenze"].
+** link:task-manage-subscriptions.html["Scopri di più sulla gestione degli abbonamenti"].
+
 
 
