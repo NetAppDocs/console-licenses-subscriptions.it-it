@@ -27,6 +27,7 @@ NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Pe
 
 
 
+[[add-a-new-marketplace-subscription]]
 == Aggiungi un nuovo abbonamento al marketplace
 
 Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
@@ -46,6 +47,7 @@ Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
 
 
 
+[[view-your-subscriptions]]
 == Visualizza i tuoi abbonamenti
 
 Puoi visualizzare i dettagli di ogni abbonamento PAYGO e contratto annuale associato alla tua organizzazione o account Console.
@@ -91,6 +93,7 @@ Contratti::
 
 
 
+[[rename-a-subscription]]
 == Rinominare un abbonamento
 
 Puoi rinominare un abbonamento per identificare meglio come viene utilizzato dalla tua organizzazione.
@@ -103,6 +106,7 @@ Puoi rinominare un abbonamento per identificare meglio come viene utilizzato dal
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == Configura un abbonamento con le credenziali del provider
 
 In genere, gli abbonamenti vengono configurati con le credenziali del provider create al momento dell'abbonamento.  In alcuni casi, potrebbe essere necessario riconfigurare un abbonamento per utilizzare credenziali diverse e modificare la modalità di addebito.  Le credenziali associate a un abbonamento devono essere associate anche a un agente.
@@ -120,6 +124,7 @@ L'opzione Configura è disattivata se hai annullato l'iscrizione a un abbonament
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == Associa un abbonamento a un'organizzazione Console
 
 Associando un abbonamento a un'organizzazione si garantisce che i membri di tale organizzazione possano utilizzare quell'abbonamento per la fatturazione.
@@ -141,6 +146,7 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == Visualizza le credenziali associate a un abbonamento
 
 È possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Abbonamenti Marketplace*.  Ciò consente di verificare come viene fatturato l'abbonamento.  Poiché le credenziali sono collegate all'agente utilizzato, è necessario selezionare l'agente associato all'abbonamento che si desidera visualizzare.
@@ -156,6 +162,7 @@ NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente ne
 
 
 
+[[remove-a-subscription]]
 === Rimuovere un abbonamento
 
 Quando annulli un abbonamento presso il tuo cloud provider (AWS, Google Cloud o Azure), la Console mostra lo stato dell'abbonamento come *Unsubscribed*. Dopo aver annullato un abbonamento, puoi anche rimuoverlo da Licenses and subscriptions.

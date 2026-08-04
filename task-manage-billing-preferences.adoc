@@ -25,6 +25,7 @@ summary: Configura le preferenze di fatturazione nella NetApp Console per contro
 
 
 
+[[set-billing-preferences]]
 == Imposta le preferenze di fatturazione
 
 È possibile selezionare il modo in cui la Console applica i costi di utilizzo alle diverse fonti di fatturazione.  In questo modo si determina quali account vengono addebitati per primi e come vengono gestiti i rinnovi.
@@ -54,6 +55,7 @@ NOTE: La modifica della modalità di fatturazione ridistribuisce il modo in cui 
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == Abilita la configurazione personalizzata di Cloud Volumes ONTAP
 
 Ora è possibile assegnare abbonamenti specifici del marketplace a singole istanze di Cloud Volumes ONTAP all'interno dello stesso cloud provider. Utilizzare questa modalità se la propria organizzazione gestisce account di fatturazione diversi per unità aziendali o ambienti distinti.
@@ -73,6 +75,7 @@ WARNING: Dopo che questa opzione è stata abilitata, la configurazione personali
 
 
 
+[[edit-marketplace-configuration]]
 == Modifica la configurazione del marketplace
 
 È possibile modificare i dettagli di configurazione del marketplace per associare gli abbonamenti ai progetti cloud o per aggiornare le informazioni contrattuali.
@@ -98,6 +101,7 @@ TIP: Per mappare un abbonamento a più progetti cloud, assicurati prima che sia 
 
 
 
+[[confirm-or-revert-billing-changes]]
 == Conferma o annulla le modifiche alla fatturazione
 
 Ogni aggiornamento delle preferenze di fatturazione richiede una conferma per evitare modifiche accidentali.

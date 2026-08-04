@@ -29,12 +29,14 @@ Le fonti di fatturazione possono essere:
 
 
 
+[[permissions]]
 == Permessi
 
 Per modificare le preferenze di fatturazione è necessario disporre del ruolo di *Account Admin* o *Billing Admin*. Gli operatori possono visualizzare le preferenze ma non possono modificarle.
 
 
 
+[[set-billing-preferences]]
 == Imposta le preferenze di fatturazione
 
 Le preferenze di fatturazione ti consentono di:
@@ -47,10 +49,12 @@ Le preferenze di fatturazione ti consentono di:
 
 
 
+[[billing-fields]]
 == Campi di fatturazione
 
 
 
+[[marketplace-fields]]
 == Campi del Marketplace
 
 * *Marketplace provider* — AWS, Azure o Google Cloud.
@@ -60,10 +64,12 @@ Le preferenze di fatturazione ti consentono di:
 
 
 
+[[billing-options-and-definitions]]
 == Opzioni e definizioni di fatturazione
 
 
 
+[[terms-and-options]]
 == Termini e opzioni
 
 * **NetApp licenses first** — Fatturazione a fronte di licenze NetApp attive. L'utilizzo aggiuntivo viene trasferito sul marketplace.
@@ -79,6 +85,7 @@ Le preferenze di fatturazione ti consentono di:
 
 
 
+[[typical-configuration-paths]]
 == Percorsi di configurazione tipici
 
 |===

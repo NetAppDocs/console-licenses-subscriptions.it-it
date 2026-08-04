@@ -34,6 +34,7 @@ Accetta e sottoscrivi un'offerta privata del Marketplace per la NetApp Console n
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == Accetta e sottoscrivi l'offerta privata nel portale di Azure
 
 Una sottoscrizione di Azure può essere associata a una sola sottoscrizione di Marketplace. Se si desidera utilizzare due diverse sottoscrizioni Marketplace per i carichi di lavoro nella stessa sottoscrizione di Azure, è necessario creare due account Console separati, uno per ciascuna sottoscrizione.  Se disponi di più istanze Cloud Volumes ONTAP e desideri suddividere la fatturazione tra diversi abbonamenti, crea account Console separati per ciascun abbonamento.

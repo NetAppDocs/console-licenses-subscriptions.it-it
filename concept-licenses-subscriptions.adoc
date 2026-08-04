@@ -18,6 +18,7 @@ summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le lice
 
 
 
+[[how-licenses-and-subscriptions-display-in-the-console]]
 == Come vengono visualizzate le licenze e gli abbonamenti nella Console
 
 Le informazioni sulla licenza e sull'abbonamento vengono visualizzate automaticamente nella Console quando l'account della Console è associato anche a un account NetApp Support Site (NSS).  Se il tuo account Console non è associato a un account NSS, dovrai aggiungere manualmente le licenze.  Quando le licenze vengono aggiunte manualmente, l'utilizzo, la capacità e altri dettagli non verranno aggiornati automaticamente.
@@ -27,12 +28,14 @@ NOTE: Per visualizzare le informazioni sull'abbonamento è necessario distribuir
 
 
 
+[[automatic-license-discovery]]
 === Rilevamento automatico delle licenze
 
 La Console interroga automaticamente il servizio di licenze NetApp per ottenere i dettagli della licenza associati al tuo account del sito di supporto NetApp .  Se la query ha esito positivo, la Console aggiunge automaticamente le licenze.
 
 
 
+[[manual-license-addition]]
 === Aggiunta manuale della licenza
 
 Se la Console non riesce ad aggiungere le licenze automaticamente, sarà necessario aggiungerle manualmente.  Ciò si verifica quando l'account della console non è associato all'account del sito di supporto NetApp .
@@ -43,6 +46,7 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 
 
+[[supported-services]]
 == Servizi supportati
 
 Nella Console puoi gestire licenze e abbonamenti per i seguenti servizi:

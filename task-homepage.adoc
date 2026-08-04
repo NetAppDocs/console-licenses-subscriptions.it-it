@@ -10,6 +10,8 @@ summary: Ottieni una panoramica di tutti gli abbonamenti e le licenze per la tua
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == Utilizzare la panoramica della dashboard
 
 [role="lead"]
@@ -21,6 +23,7 @@ La dashboard Licenses and subscriptions ti avvisa dei limiti di capacità immine
 
 
 
+[[view-details-about-a-specific-data-service]]
 === Visualizza i dettagli su un servizio dati specifico
 
 La dashboard *Panoramica* fornisce dettagli sui seguenti servizi:
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["Scopri di più sulla gestione dell
 
 
 
+[[resolve-license-or-subscription-issues]]
 === Risolvere problemi di licenza o abbonamento
 
 Nella dashboard Panoramica, è possibile visualizzare i problemi relativi a licenze e abbonamenti che necessitano di essere risolti. Tra questi rientrano le licenze e gli abbonamenti in scadenza o che hanno raggiunto la capacità massima.
