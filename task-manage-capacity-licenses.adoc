@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-capacity-licenses.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet 
+keywords: license, licenses, licensing, capacity license, capacity based license, add license, install license, digital wallet 
 summary: Gestisci le tue licenze basate sulla capacità dalla NetApp Console per assicurarti che il tuo account NetApp disponga di capacità sufficiente per i tuoi sistemi Cloud Volumes ONTAP . 
 ---
 = Gestisci le licenze basate sulla capacità per Cloud Volumes ONTAP
@@ -106,6 +106,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 La console tenta sempre di addebitare prima una licenza. Se una licenza non è disponibile, verrà addebitato un abbonamento al marketplace. Non è necessario convertire un abbonamento BYOL in un abbonamento Marketplace o viceversa.
 
 * Se hai un'offerta o un contratto privato dal marketplace del tuo provider cloud, il passaggio a un metodo di addebito non incluso nel contratto comporterà l'addebito di BYOL (se hai acquistato una licenza da NetApp) o PAYGO.
+* Se vuoi fatturare la capacità di Cloud Volumes ONTAP tramite l'abbonamento autonomo Cloud Volumes ONTAP su AWS marketplace, il sistema Cloud Volumes ONTAP deve utilizzare un pacchetto supportato basato sulla capacità (Essentials o Freemium). Il pacchetto Professional non è supportato per l'inserzione autonoma e continua a essere fatturato tramite l'abbonamento NIS. Dopo aver selezionato il pacchetto che vuoi, usa *Preferenze di fatturazione* in NetApp Console per scegliere l'abbonamento marketplace da usare per la fatturazione di Cloud Volumes ONTAP.
 
 
 .Passi

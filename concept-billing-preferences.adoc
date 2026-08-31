@@ -73,6 +73,34 @@ Da lì puoi:
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== Fatturazione flessibile per Cloud Volumes ONTAP e servizi dati in AWS
+
+In AWS, la capacità di Cloud Volumes ONTAP e i servizi dati NetApp possono essere fatturati tramite diversi abbonamenti del marketplace AWS. Per dettagli sulle modifiche e sui consigli relativi all'AWS Enterprise Discount Program (EDP), vedi la link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Note di rilascio di Cloud Volumes ONTAP"].
+
+Se sono disponibili sia un abbonamento autonomo a Cloud Volumes ONTAP sia l'abbonamento a NetApp Intelligent Services (NIS) per il tuo account AWS, puoi usare le *Preferenze di fatturazione* per scegliere quale abbonamento utilizzare per la fatturazione della capacità di Cloud Volumes ONTAP.
+
+
+NOTE: Il comportamento di fatturazione dipende dal fatto che tu abbia già sistemi Cloud Volumes ONTAP in esecuzione e fatturati tramite NIS, oppure che tu stia implementando nuovi sistemi dopo aver aggiunto l'abbonamento autonomo Cloud Volumes ONTAP. Per i sistemi esistenti, l'aggiunta dell'abbonamento autonomo non modifica la fatturazione a meno che tu non aggiorni le *Billing preferences*. Per le nuove implementazioni create dopo che l'abbonamento autonomo è disponibile, quest'ultimo viene utilizzato per impostazione predefinita per la fatturazione della capacità di Cloud Volumes ONTAP (Essentials/Freemium), a meno che tu non lo modifichi nelle *Billing preferences*.
+
+* Abbonamento autonomo a Cloud Volumes ONTAP (consigliato): Capacità di Cloud Volumes ONTAP (Essentials/Freemium)
+* NetApp Intelligent Services (NIS): abbonamento ai servizi dati NetApp (e Cloud Volumes ONTAP Professional)
+
+
+L'abbonamento autonomo Cloud Volumes ONTAP supporta solo i pacchetti Essentials e Freemium basati sulla capacità. Il pacchetto Professional non è supportato e continua a essere fatturato tramite NIS. Se hai solo l'abbonamento autonomo, puoi implementare Cloud Volumes ONTAP usando Essentials, ma per configurare Backup and Recovery serve un abbonamento diverso.
+
+
+
+[[where-to-configure-it]]
+=== Dove configurarlo
+
+Puoi associare gli abbonamenti AWS marketplace in *Administration > Licenses and subscriptions > Marketplace subscriptions* e scegliere l'abbonamento marketplace utilizzato per la fatturazione della capacità di Cloud Volumes ONTAP in *Administration > Licenses and subscriptions > Billing preferences*. Puoi verificare i dettagli di addebito utilizzando i report di utilizzo di Cloud Volumes ONTAP.
+
+
+NOTE: Non si verificano duplicazioni di misurazione quando si utilizzano più tipi di abbonamento o si passa da un'inserzione all'altra.
+
+
+
 [[fields]]
 == Campi
 
@@ -85,7 +113,7 @@ I campi di fatturazione memorizzano i metadati relativi alle modalità di fattur
 
 I campi Marketplace descrivono i contratti che hanno origine da un cloud provider come AWS, Azure o Google Cloud. Questi campi definiscono come NetApp Console collega i tuoi abbonamenti alle informazioni di fatturazione memorizzate nel marketplace del provider. Controllano inoltre come vengono gestiti i rinnovi, le assegnazioni regionali e gli account di fatturazione.
 
-* *Fornitore del Marketplace* — Identifica la piattaforma cloud in cui viene gestita la fatturazione.  Il fornitore determina le funzionalità supportate, i tipi di contratto e le regole di rinnovo.  Ad esempio, gli abbonamenti ad AWS Marketplace utilizzano la fatturazione basata sugli account, mentre Azure può supportare sia modelli basati sugli account che su quelli basati sui tenant.
+* *Provider del marketplace* — Identifica la piattaforma cloud in cui viene gestita la fatturazione. Il provider determina le funzionalità supportate, i tipi di contratto e le regole di rinnovo. Ad esempio, gli abbonamenti al marketplace di AWS utilizzano la fatturazione basata sull'account, mentre Azure può supportare sia modelli basati sull'account che modelli basati sul tenant.
 * *ID account di fatturazione o abbonamento*: specifica l'identificativo univoco per l'account utilizzato per elaborare gli addebiti.  In questo modo si garantisce che i dati di utilizzo vengano fatturati al corretto profilo di fatturazione cloud.
 * *Durata del contratto* — Definisce la durata dell'abbonamento e le impostazioni di rinnovo.
 
