@@ -24,7 +24,7 @@ summary: Le licenze e gli abbonamenti consentono di gestire e monitorare le lice
 Le informazioni sulla licenza e sull'abbonamento vengono visualizzate automaticamente nella Console quando l'account della Console è associato anche a un account NetApp Support Site (NSS).  Se il tuo account Console non è associato a un account NSS, dovrai aggiungere manualmente le licenze.  Quando le licenze vengono aggiunte manualmente, l'utilizzo, la capacità e altri dettagli non verranno aggiornati automaticamente.
 
 
-NOTE: Per visualizzare le informazioni sull'abbonamento è necessario distribuire un agente Console.  È inoltre necessario un agente per visualizzare le licenze dei nodi per Cloud Volumes ONTAP.
+NOTE: Per visualizzare le informazioni sull'abbonamento, hai bisogno di un agente Console distribuito. Hai anche bisogno di un agente per visualizzare le licenze BYOL per Cloud Volumes ONTAP.
 
 
 

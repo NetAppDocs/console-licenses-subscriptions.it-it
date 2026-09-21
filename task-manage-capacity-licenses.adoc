@@ -73,8 +73,8 @@ Vedrai solo gli abbonamenti associati all'organizzazione che stai visualizzando 
 
 
 
-[[viewing-package-details]]
-== Visualizzazione dei dettagli del pacchetto
+[[view-package-details]]
+== Visualizza i dettagli del pacchetto
 
 È possibile visualizzare i dettagli sulla capacità utilizzata per pacchetto passando alla modalità legacy nella pagina Cloud Volumes ONTAP .
 
