@@ -53,6 +53,8 @@ sidebar:
         url: "/task-manage-billing-preferences.html"
   - title: Conoscenza e supporto
     entries:
+    - title: Domande frequenti
+      url: "/faq-licenses-subscriptions.html"
     - title: Registrati per ricevere supporto
       url: "/task-support-registration.html"
     - title: Ottieni aiuto
