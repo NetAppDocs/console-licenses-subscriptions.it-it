@@ -42,7 +42,7 @@ summary: Configura le preferenze di fatturazione nella NetApp Console per contro
 . In *Abbonamenti al Marketplace*, seleziona l'abbonamento per ciascun cloud provider (AWS, Azure e Google Cloud).
 . Se utilizzi più abbonamenti con un singolo cloud provider, abilita *Custom CVO configuration*.
 . Facoltativamente, aggiornare i *Contatti per la fatturazione* e i *Contatti per le notifiche*.
-. Facoltativamente, inserire un *Cost center tag* per associare la fatturazione ai codici contabili interni.
+. Facoltativamente, puoi inserire un *Cost center tag* per associare la fatturazione ai codici contabili interni.
 . Seleziona *Salva modifiche*.
 . Quando richiesto, rivedi la finestra di dialogo di conferma e seleziona *Conferma*.
 

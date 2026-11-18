@@ -78,16 +78,29 @@ Da lì puoi:
 
 In AWS, la capacità di Cloud Volumes ONTAP e i servizi dati NetApp possono essere fatturati tramite diversi abbonamenti del marketplace AWS. Per dettagli sulle modifiche e sui consigli relativi all'AWS Enterprise Discount Program (EDP), vedi la link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Note di rilascio di Cloud Volumes ONTAP"].
 
-Se sono disponibili sia un abbonamento autonomo a Cloud Volumes ONTAP sia l'abbonamento a NetApp Intelligent Services (NIS) per il tuo account AWS, puoi usare le *Preferenze di fatturazione* per scegliere quale abbonamento utilizzare per la fatturazione della capacità di Cloud Volumes ONTAP.
+Quando ti abboni tramite AWS Marketplace, puoi scegliere tra quattro offerte:
+
+[cols="1,3"]
+|===
+| Offerta | Descrizione 
 
 
-NOTE: Il comportamento di fatturazione dipende dal fatto che tu abbia già sistemi Cloud Volumes ONTAP in esecuzione e fatturati tramite NIS, oppure che tu stia implementando nuovi sistemi dopo aver aggiunto l'abbonamento autonomo Cloud Volumes ONTAP. Per i sistemi esistenti, l'aggiunta dell'abbonamento autonomo non modifica la fatturazione a meno che tu non aggiorni le *Billing preferences*. Per le nuove implementazioni create dopo che l'abbonamento autonomo è disponibile, quest'ultimo viene utilizzato per impostazione predefinita per la fatturazione della capacità di Cloud Volumes ONTAP (Essentials/Freemium), a meno che tu non lo modifichi nelle *Billing preferences*.
-
-* Abbonamento autonomo a Cloud Volumes ONTAP (consigliato): Capacità di Cloud Volumes ONTAP (Essentials/Freemium)
-* NetApp Intelligent Services (NIS): abbonamento ai servizi dati NetApp (e Cloud Volumes ONTAP Professional)
+| *Solo Cloud Volumes ONTAP (contratto annuale)* | Offerta standalone di Cloud Volumes ONTAP con fatturazione annuale. Consigliata per le nuove implementazioni di Cloud Volumes ONTAP. 
 
 
-L'abbonamento autonomo Cloud Volumes ONTAP supporta solo i pacchetti Essentials e Freemium basati sulla capacità. Il pacchetto Professional non è supportato e continua a essere fatturato tramite NIS. Se hai solo l'abbonamento autonomo, puoi implementare Cloud Volumes ONTAP usando Essentials, ma per configurare Backup and Recovery serve un abbonamento diverso.
+| *Solo Cloud Volumes ONTAP (PAYGO)* | Offerta Cloud Volumes ONTAP standalone con fatturazione flessibile basata sull'utilizzo. Consigliata per le nuove implementazioni di Cloud Volumes ONTAP. 
+
+
+| *NetApp Intelligent Services (contratto annuale)* | NetApp servizi dati con fatturazione annuale. Supporta Cloud Volumes ONTAP solo per i contratti esistenti. 
+
+
+| *NetApp Intelligent Services (PAYGO)* | Servizi dati NetApp con fatturazione flessibile basata sull'utilizzo. Supporta Cloud Volumes ONTAP solo per i contratti esistenti. 
+|===
+Se al tuo account AWS è associato più di un abbonamento di questo tipo, utilizza le *Preferenze di fatturazione* per selezionare l'abbonamento da utilizzare per la fatturazione della capacità di Cloud Volumes ONTAP.
+
+Il comportamento della fatturazione dipende dal fatto che tu abbia già sistemi Cloud Volumes ONTAP in esecuzione e fatturati tramite un abbonamento a NetApp Intelligent Services, oppure che tu stia implementando nuovi sistemi dopo aver aggiunto un abbonamento solo Cloud Volumes ONTAP. Per i sistemi esistenti, l'aggiunta di un abbonamento solo Cloud Volumes ONTAP non modifica la fatturazione, a meno che tu non aggiorni le *Preferenze di fatturazione*. Per le nuove implementazioni, per impostazione predefinita viene usato un abbonamento solo Cloud Volumes ONTAP per la fatturazione della capacità di Cloud Volumes ONTAP (Essentials/Freemium), a meno che tu non lo sostituisca nelle *Preferenze di fatturazione*.
+
+Le offerte solo Cloud Volumes ONTAP supportano solo i pacchetti Essentials e Freemium basati sulla capacità. Il pacchetto Professional non è supportato da nessuna delle offerte solo Cloud Volumes ONTAP e continua a essere fatturato tramite un abbonamento a NetApp Intelligent Services. Se hai associato solo un abbonamento solo Cloud Volumes ONTAP, puoi implementare Cloud Volumes ONTAP utilizzando Essentials, ma per configurare Backup and Recovery è necessario un abbonamento a NetApp Intelligent Services.
 
 
 

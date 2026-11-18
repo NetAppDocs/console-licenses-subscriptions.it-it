@@ -33,15 +33,22 @@ NOTE: Nella pagina *Abbonamenti Marketplace* sono elencate tutte le licenze.  Pe
 Puoi sottoscrivere un abbonamento al marketplace direttamente dalla Console.
 
 
-NOTE: Per AWS, il tuo account potrebbe avere più di un NetApp marketplace subscription disponibile. Se associ solo l'abbonamento autonomo Cloud Volumes ONTAP, puoi distribuire Cloud Volumes ONTAP utilizzando Essentials, ma la configurazione di Backup and Recovery richiede un abbonamento diverso. Per scegliere quale abbonamento viene utilizzato per la fatturazione della capacità di Cloud Volumes ONTAP (inclusa la modifica della fatturazione per i sistemi esistenti), vai su *Administration > Licenses and subscriptions > Billing preferences*.
+NOTE: Per AWS, il tuo account potrebbe avere più di un abbonamento al marketplace NetApp disponibile, in quattro tipi di offerta: solo Cloud Volumes ONTAP (contratto annuale), solo Cloud Volumes ONTAP (PAYGO), NetApp Intelligent Services (contratto annuale) e NetApp Intelligent Services (PAYGO). Se associ l'abbonamento solo Cloud Volumes ONTAP, puoi implementare Cloud Volumes ONTAP usando Essentials, ma per configurare Backup and Recovery è necessario un abbonamento diverso. Per scegliere quale abbonamento usare per la fatturazione della capacità di Cloud Volumes ONTAP (inclusa la modifica della fatturazione per i sistemi esistenti), vai a *Administration > Licenses and subscriptions > Billing preferences*.
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Sopra la tabella *Abbonamenti*, seleziona *Aggiungi abbonamento*.
-. Nella finestra di dialogo Aggiungi abbonamento, seleziona un provider cloud.
+. Nella finestra di dialogo *Aggiungi abbonamento*, seleziona un cloud provider.
 +
-.. Se si sceglie un abbonamento AWS, specificare se si desidera un contratto annuale o un abbonamento PAYGO.
+.. Se scegli un abbonamento AWS, seleziona l'offerta che preferisci:
++
+*** Cloud Volumes ONTAP solo (contratto annuale)
+*** Solo Cloud Volumes ONTAP (PAYGO)
+*** NetApp Intelligent Services (contratto annuale)
+*** NetApp Intelligent Services (PAYGO)
+
+
 
 
 . Seleziona *Aggiungi abbonamento* per accedere al marketplace del provider e completare i passaggi indicati.
@@ -59,7 +66,7 @@ Per Google Cloud, puoi anche identificare gli abbonamenti al marketplace associa
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 +
 Vedrai solo gli abbonamenti associati all'organizzazione che stai visualizzando al momento.
 
@@ -103,7 +110,7 @@ Puoi rinominare un abbonamento per identificare meglio come viene utilizzato dal
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Seleziona il menu azioni nella riga corrispondente all'abbonamento che desideri gestire e scegli *Rinomina*.
 
 
@@ -120,7 +127,7 @@ L'opzione Configura è disattivata se hai annullato l'iscrizione a un abbonament
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Selezionare il menu azioni nella riga corrispondente all'abbonamento che si desidera configurare e scegliere *Configura*.
 . Nella finestra di dialogo Configura, seleziona una credenziale da configurare con l'abbonamento.  È possibile scegliere solo tra le credenziali associate all'agente attualmente selezionato.  Se non vedi la credenziale che desideri utilizzare, prova a passare a una vista agente diversa.
 
@@ -141,7 +148,7 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Nella riga relativa all'abbonamento che si desidera associare, aprire il menu delle azioni e selezionare *Associa*.
 . Nella finestra di dialogo *Associa l'abbonamento*, seleziona le organizzazioni della Console che desideri associare all'abbonamento.
 . Seleziona *Associa*.
@@ -152,14 +159,14 @@ NOTE: La console supporta Identity and Access Management (IAM) in modalità stan
 [[view-credentials-associated-with-a-subscription]]
 == Visualizza le credenziali associate a un abbonamento
 
-È possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Abbonamenti Marketplace*.  Ciò consente di verificare come viene fatturato l'abbonamento.  Poiché le credenziali sono collegate all'agente utilizzato, è necessario selezionare l'agente associato all'abbonamento che si desidera visualizzare.
+Puoi visualizzare le credenziali per un abbonamento specifico dalla pagina *Abbonamenti Marketplace*. Questo ti consente di verificare le modalità di fatturazione dell'abbonamento. Poiché le credenziali sono associate all'agente che stai utilizzando, devi selezionare l'agente associato all'abbonamento che vuoi visualizzare.
 
 
 NOTE: Per cambiare agente, se necessario, utilizzare il menu a discesa Agente nella barra di navigazione in alto.
 
 .Passi
 . Dal menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Nella riga contenente l'abbonamento di cui si desidera visualizzare le credenziali, selezionare *Visualizza*. Se a un abbonamento sono associate più credenziali, potrebbe non essere visualizzata alcuna credenziale e si viene indirizzati a selezionare un agente diverso.
 
 
@@ -179,7 +186,7 @@ Se l'abbonamento è ancora configurato, l'opzione *Remove* non è disponibile.
 
 .Passi
 . Nel menu NetApp Console , selezionare *Amministrazione > Licenses and subscriptions*.
-. Seleziona *Abbonamenti Marketplace*.
+. Seleziona *Marketplace subscriptions*.
 . Nella riga relativa all'abbonamento che desideri rimuovere, apri il menu azioni e seleziona *Rimuovi*.
 . Nella finestra di dialogo *Rimuovi abbonamento*, seleziona *Rimuovi* per confermare che desideri rimuovere l'abbonamento.
 
